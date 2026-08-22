@@ -1,0 +1,19 @@
+# KiCad
+*-backups/
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+fp-info-cache
+*.bak
+*.tmp
+
+# Build / fabrication output
+/gerbers-out/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
