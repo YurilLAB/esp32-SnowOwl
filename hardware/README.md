@@ -10,12 +10,15 @@ KiCad 10 design for the SnowOwl shield and the extended main board.
 
 ## Shield highlights
 
-- **Luckfox RV1106** ARM Linux SoM — self-powered from its **own USB-C** (isolated from the main board's supply).
-- **PN532 NFC** on a dedicated I²C bus owned by the ESP32-S3.
-- **125 kHz LF RFID** front-end + coil connector.
+- **ESP32-C5-WROOM-1U** — dual-band **2.4 / 5 GHz Wi-Fi 6** co-processor (adds the 5 GHz band the S3 lacks); own U.FL antenna + **AP7361C-3.3** LDO rail, UART-linked to the S3.
+- **Luckfox RV1106 (Core1106)** ARM Linux SoM — self-powered from its **own USB-C** (isolated from the main board's supply).
+- **PN532 NFC** (13.56 MHz, 27.12 MHz clock) on a dedicated I²C bus owned by the ESP32-S3.
+- **HTRC110 125 kHz LF RFID** front-end + coil connector.
 - **iButton / 1-Wire** contact interface.
-- **External flash** for captures/logs.
-- Power hardening: bulk + per-rail decoupling capacitors.
+- **SX1262 LoRa** (+ Johanson integrated match) and **CC1200** high-performance Sub-GHz, alongside the classic CC1101.
+- **3× nRF24L01+** (2.4 GHz) and **NEO-M9N** GPS.
+- **W25Q128** 16 MB external flash for captures/logs.
+- Power hardening: bulk + per-rail decoupling capacitors; **USBLC6** USB ESD protection.
 - Mates to the main board via the existing 20-pin stack header; pogo/standoff holes kept clear for a flat stack.
 
 ## Stackup (4-layer)
