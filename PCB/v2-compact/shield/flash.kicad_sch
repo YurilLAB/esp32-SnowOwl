@@ -1,10 +1,10 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 90eb6588-2228-43fa-8957-f206ddd72f2d)
+  (uuid bb05878b-deb3-484c-8fbb-8f8bee548bf4)
   (paper "A4")
   (title_block (title "12_Flash_Storage") (company "YurilLAB"))
   (lib_symbols)
   (text "12_Flash  [zone: next to J1 on the SPI spine]
 W25Q128 16MB SPI flash for captures/logs. Taps the SPI spine; own CS." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid f416417a-6ac8-48bd-9f31-da1d2ad4be66))
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid a326d9c8-a81d-4349-ab2f-db12e78b233e))
   (sheet_instances (path "/" (page "1")))
 )

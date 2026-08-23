@@ -1,5 +1,5 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 7846bbd9-40f3-4b58-8aa4-ddda314d7061)
+  (uuid 04afa330-b483-45d4-850c-c41bcb5ad63c)
   (paper "A4")
   (title_block (title "05_SubGHz") (company "YurilLAB"))
   (lib_symbols)
@@ -7,6 +7,6 @@
 CC1101 + CC1200 + SX1262(LoRa), each with crystal + matching, each right
 behind its own SMA (RF run <10mm). Shared SPI taps the central spine;
 CS/GDO/DIO/BUSY fan to each." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 4363e40f-dc06-408f-bc21-6942cf500072))
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 4f5bb917-f955-47d4-a8cd-560ce6a6976b))
   (sheet_instances (path "/" (page "1")))
 )

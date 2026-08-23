@@ -1,12 +1,12 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid e0fc7781-98d9-4a89-8c4c-97c6de4702b0)
+  (uuid 2abf736e-eeba-4950-be4e-aef558e9814b)
   (paper "A4")
   (title_block (title "01_Power_USB") (company "YurilLAB"))
   (lib_symbols)
-  (text "01_Power_USB  [zone: WEST edge]
-USB-C (S3 prog/power), USBLC6-2SC6 ESD, 5V->3V3 LDO, bulk + input caps,
-ideal-diode / reverse protection, power switch.
-NETS OUT: +3V3, +5V, GND  ->  short run east to ESP32-S3." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 076046fd-7280-4041-b858-0e9267f99fe3))
+  (text "01_Power_USB  [zone: BACK, bottom-centre - phone-style]
+USB-C at the bottom-centre edge (charge/prog), USBLC6-2SC6 ESD, 5V->3V3 LDO,
+bulk + input caps, reverse protection, power switch.  ALL on the BACK.
+NETS OUT: +3V3, +5V, GND  ->  up to the S3 (also on the back) and to J1." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 67a61680-486f-4c7f-8854-cc70fec3477f))
   (sheet_instances (path "/" (page "1")))
 )

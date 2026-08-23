@@ -1,11 +1,11 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 63b1d25c-b18d-4772-81d2-73f9042e59cc)
+  (uuid ca41ebe3-2f76-4cb5-a6b8-9c44b2093fcf)
   (paper "A4")
   (title_block (title "06_nRF24_x3") (company "YurilLAB"))
   (lib_symbols)
   (text "06_nRF24 x3 (2.4GHz)  [zone: NORTH, BACK - behind Sub-GHz]
 3x nRF24L01+, grouped over the SPI spine. Shared SCK/MOSI/MISO; per-radio
 CE/CSN/IRQ. Antennas out the top/side edge." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 57cbbab3-0b1c-4682-9c02-a2a936beac94))
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 82583f63-8bc6-450a-83ac-ee601a16a7fb))
   (sheet_instances (path "/" (page "1")))
 )

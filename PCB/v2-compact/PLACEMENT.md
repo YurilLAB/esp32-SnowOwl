@@ -33,28 +33,34 @@ reflow the zones to fit.
 
 ---
 
-## Main board (brain) — zone map
+## Main board (brain) — zone map — **phone-style**
+
+The front is pure UI; all the electronics sit on the back — same rough layout as the
+ESP32‑DIV but with the **display turned sideways (landscape)**.
 
 ```
-            N (top edge)
-   +--------------------------------+
-   |          TFT DISPLAY (SPI)     |   display bus runs straight NORTH from S3
-   |          NAV BTNS  |  LEDs      |
-W  |        [ ESP32-S3  = HUB ]      |E
-   | USB-C |                | uSD    |   power enters WEST, stays WEST
-   | POWER |    J1 STACK    |(S3)    |   microSD hangs EAST
-   | LDO   |   (to shield)  |        |
-   +--------------------------------+
-            S (bottom edge)
+   FRONT (UI side)                 BACK (electronics)
+            N                              N
+   +------------------+           +------------------+
+   |   STATUS LEDs    |           |                  |
+   | +--------------+ |           |  [ ESP32-S3 ]    |  S3 behind the display
+   | |   TFT  (land-| |           |   = HUB          |
+   | |   scape /    | |           |            uSD>  |  microSD by the S3 (east)
+   | |   sideways)  | |           |                  |
+   | +--------------+ |           |                  |
+   |   NAV  BUTTONS   |           | POWER  ....J1.... |  J1 = horizontal strip
+   |   ....J1....     |           |     [USB-C]       |  USB-C bottom-centre
+   +------------------+           +------------------+
+            S                              S
 ```
 
-| Sheet / zone | Where | Why here |
+| Sheet / zone | Side · where | Why here |
 |---|---|---|
-| `02_ESP32-S3` | **center** | It is the hub; every bus fans out from the middle so no run is long. |
-| `03_Display_UI` | **north** | Display + nav are user‑facing and the SPI/DC/RST/BL bus goes straight up from the S3. |
-| `01_Power_USB` | **west** | Power enters one corner and stays there — no supply current across signal areas. |
-| `04_microSD` | **east** | Short SD bus east from the S3; card slot reachable at the edge. |
-| `05_Stack_Header` (J1) | **south, center** | The single trunk to the shield, directly below the S3 so SPI/I²C/UART reach it with minimal length. |
+| `03_Display_UI` | **front** | LEDs top, **landscape TFT** upper, **nav buttons below** (moved down). The whole front is UI, nothing else competes. |
+| `02_ESP32-S3` | **back**, upper‑centre | On the back, directly behind the display; display bus vias straight through, other buses drop to J1 just below. Antenna keepout to the nearest corner edge. |
+| `04_microSD` | **back**, east | Beside the S3 (both on the back); slot out the right edge. |
+| `01_Power_USB` | **back**, bottom‑centre | **USB-C at the bottom-centre edge like a phone**; LDO/ESD next to it. Power stays at the bottom, away from the S3 and display. |
+| `05_Stack_Header` (J1) | lower‑centre, **horizontal** | A 10×2 strip laid between the nav buttons and the USB-C so nothing fights for the centre column. Same X/Y on both boards. |
 
 ## Shield (expansion) — zone map
 
@@ -83,16 +89,17 @@ W  |(I2C)  |       |                   |
 | `11_IR` | F | center‑edge | TSOP1838 + IR TX need line‑of‑sight; two GPIO from J1. |
 | `09_iButton_1Wire` | F | west edge | Contact probe at the edge; single GPIO. |
 | `06_nRF24 ×3` | **B** | north, behind Sub‑GHz | Grouped over the spine, shared SCK/MOSI/MISO, per‑radio CE/CSN/IRQ. |
-| `04_RV1106` (Luckfox SoM) | **B** | SE quadrant | Biggest part; own USB‑C + microSD at the edge; UART/IPC to J1. |
-| `08_LF_RFID_HTRC110` | **B** | SW | 125 kHz coil out the edge, kept **diagonally opposite** the NFC coil to cut coupling. |
-| `02_Power` | **B** | SW | Bulk caps under the LDOs. RV1106 self‑powered from its own USB‑C. |
+| `04_RV1106` (Luckfox SoM) | **B** | east‑mid, above J1 | Biggest part; own USB‑C + microSD at the edge; UART/IPC to J1 just below. |
+| `08_LF_RFID_HTRC110` | **B** | west‑mid | 125 kHz coil out the edge, kept **diagonally opposite** the NFC coil to cut coupling. |
+| `02_Power` | **B** | below J1 | Bulk caps under the LDOs. RV1106 self‑powered from its own USB‑C. |
 
 ---
 
 ## J1 stack-header pin grouping (the anti–cross-trace move)
 
-The 20‑pin connector is the one thing that crosses between boards, so its pin *order*
-is chosen so each signal lands next to the zone that uses it — on **both** boards:
+The 20‑pin connector (a **horizontal 10×2 strip in the lower‑centre**) is the one thing
+that crosses between boards, so its pin *order* is chosen so each signal lands next to
+the zone that uses it — on **both** boards:
 
 | Pins | Group | Lands near (shield) | Lands near (main) |
 |---|---|---|---|

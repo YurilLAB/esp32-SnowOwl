@@ -1,11 +1,11 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 7bc29c0d-2e53-46c9-be00-0d66a57e47cc)
+  (uuid 7bfaf96e-1f77-4e99-943f-66f2197fd90e)
   (paper "A4")
   (title_block (title "02_Power") (company "YurilLAB"))
   (lib_symbols)
   (text "02_Power  [distributed]
 AP7361C-3.3 LDO for the C5 RF rail; bulk + per-rail decoupling; RV1106 is
 self-powered from its OWN USB-C (isolated). +3V3/+5V arrive on J1 ends." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid e7fdcfb6-cb9b-413b-a20a-035740c59ee8))
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid b7bc8ddb-c74f-4b9d-aab0-aa7890048903))
   (sheet_instances (path "/" (page "1")))
 )

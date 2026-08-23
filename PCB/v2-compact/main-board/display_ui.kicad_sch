@@ -1,11 +1,13 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 692ccd45-03d6-48a5-bf44-4c0201512f30)
+  (uuid c454133d-3a9c-4700-ac8e-eb175597b07d)
   (paper "A4")
   (title_block (title "03_Display_UI") (company "YurilLAB"))
   (lib_symbols)
-  (text "03_Display_UI  [zone: NORTH edge]
-TFT display connector (SPI), 3x nav tact switches, status LEDs.
-NETS: display SPI/CS/DC/RST/BL from S3 (short, straight north)." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid bc724278-d3ba-4d29-9e61-546261c8242f))
+  (text "03_Display_UI  [zone: FRONT]
+TFT in LANDSCAPE (sideways) filling the upper front; STATUS LEDs in a strip
+ABOVE the display (top edge); 3x NAV tact switches just BELOW the display
+(moved down). Same feel as the ESP32-DIV, rotated to landscape.
+NETS: display SPI/CS/DC/RST/BL via-through from the S3 on the back." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid a8849c05-858e-4a2d-b8b9-70cd50fd8994))
   (sheet_instances (path "/" (page "1")))
 )

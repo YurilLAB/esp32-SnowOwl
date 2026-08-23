@@ -1,13 +1,14 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 557d8a4e-128a-40bc-bf7f-cbb660ad1f67)
+  (uuid 1746e996-1ab1-42d4-babc-1b079145bc62)
   (paper "A4")
   (title_block (title "05_Stack_Header") (company "YurilLAB"))
   (lib_symbols)
-  (text "05_Stack_Header J1  [zone: SOUTH - trunk to shield]
-2x10 2.54mm stack header -- the ONLY inter-board path.
-PIN GROUPING (deliberate): GND spread across; SPI block on pins nearest the
-shield SPI spine; I2C block near PN532 side; UART block near C5/RV1106 side;
-power (+3V3/+5V) on ends. Mirrors physical zones on BOTH boards." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 8b1a20b1-090d-4704-b630-d2dfc2179413))
+  (text "05_Stack_Header J1  [zone: lower-centre, HORIZONTAL 10x2 strip]
+2x10 2.54mm header -- the ONLY inter-board path -- laid horizontal between the
+nav buttons (above) and the USB-C (below) so nothing fights for the centre.
+PIN GROUPING (deliberate): power on the ends; SPI block on the pins nearest the
+shield SPI spine; I2C block near the PN532 side; UART block near C5/RV1106 side.
+Same X/Y on BOTH boards." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 1ce9b0a0-b1ed-4a05-b76f-1112c0341946))
   (sheet_instances (path "/" (page "1")))
 )

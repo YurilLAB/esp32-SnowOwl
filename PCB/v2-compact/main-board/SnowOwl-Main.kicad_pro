@@ -59,27 +59,27 @@
   },
   "sheets": [
     [
-      "b8c64a55-b65e-44a1-a4cd-011282863403",
+      "f0ae03bd-00eb-414e-a38d-1712069bff46",
       "Root"
     ],
     [
-      "adcfe2b9-6d78-4d61-851f-5f231456b7ce",
+      "71a7ce61-817f-4322-a405-87b1a934b447",
       "01_Power_USB"
     ],
     [
-      "8fdf589c-9e8c-41e9-921c-e30d761563d7",
+      "3aa1d52a-c0fb-457d-9655-31ee0baf002e",
       "02_ESP32-S3"
     ],
     [
-      "df6b28a8-95e5-4701-a1cc-fdab64e39be9",
+      "5f960ae1-6ea6-4e5b-ad8d-d97331122e31",
       "03_Display_UI"
     ],
     [
-      "6728e98b-ec51-44d1-a54c-e9307606025a",
+      "aea3969f-5c4e-431b-a941-db3881dbad2a",
       "04_microSD"
     ],
     [
-      "df1719ef-f114-4c7b-9b85-212759b43325",
+      "28fde456-7cf4-463f-92ab-b908c7661f30",
       "05_Stack_Header"
     ]
   ],

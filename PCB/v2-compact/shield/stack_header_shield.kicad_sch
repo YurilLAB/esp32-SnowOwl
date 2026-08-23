@@ -1,11 +1,12 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid 3d7c09d4-241f-42bc-8c03-cf1a37c4ef3b)
+  (uuid 13969915-b5e5-4adf-98b6-fe9bdceb6a3f)
   (paper "A4")
   (title_block (title "01_Stack_Header") (company "YurilLAB"))
   (lib_symbols)
-  (text "01_Stack_Header J1  [zone: SOUTH - trunk from main board]
-Same 2x10 datum as the main board. Buses arrive grouped so each lands next
-to its zone: SPI -> central spine; I2C -> PN532 (west); UART -> C5/RV1106/GPS." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 6c196a91-ee11-477d-8257-b5bea597e3d6))
+  (text "01_Stack_Header J1  [zone: lower-centre, HORIZONTAL 10x2 strip]
+Same 2x10 datum (X/Y) as the main board. The SPI spine runs NORTH from here;
+buses arrive grouped so each lands next to its zone: SPI -> central spine;
+I2C -> PN532 (west); UART -> C5/RV1106/GPS (east)." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 28732911-d052-4b2f-aaa8-bd0d78d2c7d8))
   (sheet_instances (path "/" (page "1")))
 )
