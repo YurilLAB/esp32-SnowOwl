@@ -1,10 +1,749 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid bb05878b-deb3-484c-8fbb-8f8bee548bf4)
+  (uuid d98eb114-52b6-4096-9e76-5478f754befa)
   (paper "A4")
   (title_block (title "12_Flash_Storage") (company "YurilLAB"))
-  (lib_symbols)
-  (text "12_Flash  [zone: next to J1 on the SPI spine]
-W25Q128 16MB SPI flash for captures/logs. Taps the SPI spine; own CS." (at 15 15 0)
-    (effects (font (size 1.4 1.4)) (justify left top)) (uuid a326d9c8-a81d-4349-ab2f-db12e78b233e))
+  (lib_symbols
+    (symbol "Memory_Flash:W25Q128JVS"
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "U"
+    			(at -6.35 11.43 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "W25Q128JVS"
+    			(at 7.62 11.43 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "flash memory SPI"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "W25Q128JVS_0_1"
+    			(rectangle
+    				(start -7.62 10.16)
+    				(end 10.16 -10.16)
+    				(stroke
+    					(width 0.254)
+    					(type default)
+    				)
+    				(fill
+    					(type background)
+    				)
+    			)
+    		)
+    		(symbol "W25Q128JVS_1_1"
+    			(pin input line
+    				(at -10.16 7.62 0)
+    				(length 2.54)
+    				(name "~{CS}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 0 0)
+    				(length 2.54)
+    				(name "DO/IO_{1}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 -2.54 0)
+    				(length 2.54)
+    				(name "~{WP}/IO_{2}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "3"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 -12.7 90)
+    				(length 2.54)
+    				(name "GND"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "4"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 2.54 0)
+    				(length 2.54)
+    				(name "DI/IO_{0}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "5"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin input line
+    				(at -10.16 5.08 0)
+    				(length 2.54)
+    				(name "CLK"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "6"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 -5.08 0)
+    				(length 2.54)
+    				(name "~{HOLD}/~{RESET}/IO_{3}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "7"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 12.7 270)
+    				(length 2.54)
+    				(name "VCC"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "8"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+    (symbol "power:+3V3"
+    		(power global)
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0)
+    			(hide yes)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "#PWR"
+    			(at 0 -3.81 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "+3V3"
+    			(at 0 3.556 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "global power"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "+3V3_0_1"
+    			(polyline
+    				(pts
+    					(xy -0.762 1.27) (xy 0 2.54)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy 0 2.54) (xy 0.762 1.27)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy 0 0) (xy 0 2.54)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "+3V3_1_1"
+    			(pin power_in line
+    				(at 0 0 90)
+    				(length 0)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+    (symbol "power:GND"
+    		(power global)
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0)
+    			(hide yes)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "#PWR"
+    			(at 0 -6.35 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "GND"
+    			(at 0 -3.81 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "global power"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "GND_0_1"
+    			(polyline
+    				(pts
+    					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "GND_1_1"
+    			(pin power_in line
+    				(at 0 0 270)
+    				(length 0)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+    (symbol "Device:C"
+    		(pin_numbers
+    			(hide yes)
+    		)
+    		(pin_names
+    			(offset 0.254)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "C"
+    			(at 0.635 2.54 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Value" "C"
+    			(at 0.635 -2.54 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0.9652 -3.81 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Unpolarized capacitor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "cap capacitor"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "C_*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "C_0_1"
+    			(polyline
+    				(pts
+    					(xy -2.032 0.762) (xy 2.032 0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -2.032 -0.762) (xy 2.032 -0.762)
+    				)
+    				(stroke
+    					(width 0.508)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "C_1_1"
+    			(pin passive line
+    				(at 0 3.81 270)
+    				(length 2.794)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 0 -3.81 90)
+    				(length 2.794)
+    				(name ""
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+  )
+  (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 120 90 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 82a25c48-fea6-41d4-bbfa-645d1452874d)
+    (property "Reference" "U12" (at 122.54 87.46 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "W25Q128JVSSIQ" (at 122.54 92.54 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 120 90 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 5ec1f0a0-ee38-46f1-8234-a257903938fa))
+    (pin "2" (uuid 1acb0f3f-6289-4be2-aa2c-b8ca856d7c76))
+    (pin "3" (uuid 18a34242-5056-40af-a928-55f83b380747))
+    (pin "4" (uuid ba6cb57f-d5c1-4485-b85c-b0c493b61fbb))
+    (pin "5" (uuid ffa237aa-fc74-4050-a68c-a43116d200a2))
+    (pin "6" (uuid 0a8a85e2-0670-48ef-bd85-d05a9330ab30))
+    (pin "7" (uuid 9385502c-0385-4110-a393-01e9b600e710))
+    (pin "8" (uuid 03fe333d-0385-4401-899c-237abacc3e5c))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "U12") (unit 1))))
+  )
+  (wire (pts (xy 109.84 82.38) (xy 104.76 82.38)) (stroke (width 0) (type default)) (uuid d1b04be8-1bd4-4527-aab8-a7009b1fbefc))
+  (global_label "FLASH_CS" (shape bidirectional) (at 104.76 82.38 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid aa505700-7ad5-41bc-86f7-ea675e43b252))
+  (wire (pts (xy 109.84 90) (xy 104.76 90)) (stroke (width 0) (type default)) (uuid 8bf7df9d-747a-49c6-b708-eccb26e9facb))
+  (global_label "SPI_MISO" (shape bidirectional) (at 104.76 90 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 7f2b44b5-1e25-4e54-8c78-701fb05b250f))
+  (wire (pts (xy 109.84 92.54) (xy 104.76 92.54)) (stroke (width 0) (type default)) (uuid 1cca787f-9728-46bd-87ac-7ded253e73b5))
+  (symbol (lib_id "power:+3V3") (at 104.76 92.54 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 37ab0cf9-f313-4a6e-b929-919cb3081685)
+    (property "Reference" "#PWR001" (at 107.3 90 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "+3V3" (at 107.3 95.08 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 104.76 92.54 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid b1480326-07e9-429a-8da3-a32a5cad3a0e))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "#PWR001") (unit 1))))
+  )
+  (wire (pts (xy 120 102.7) (xy 120 107.78)) (stroke (width 0) (type default)) (uuid c1024f9a-7307-401e-815c-878a5bc6081a))
+  (symbol (lib_id "power:GND") (at 120 107.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid ca2b3f0e-181d-4b6e-b127-eb71413ed1f0)
+    (property "Reference" "#PWR002" (at 122.54 105.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "GND" (at 122.54 110.32 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 120 107.78 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 6ec90b93-5cc9-4200-b152-03ef411a5b9a))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "#PWR002") (unit 1))))
+  )
+  (wire (pts (xy 109.84 87.46) (xy 104.76 87.46)) (stroke (width 0) (type default)) (uuid 11abca63-254d-4615-8faf-867e0747e890))
+  (global_label "SPI_MOSI" (shape bidirectional) (at 104.76 87.46 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid a02f9e14-2c85-446f-969d-819d1c28f152))
+  (wire (pts (xy 109.84 84.92) (xy 104.76 84.92)) (stroke (width 0) (type default)) (uuid e6070112-555b-4173-8afc-03605897d636))
+  (global_label "SPI_SCK" (shape bidirectional) (at 104.76 84.92 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 2f3aad75-4d05-469a-b4d0-7e5cf7772376))
+  (wire (pts (xy 109.84 95.08) (xy 104.76 95.08)) (stroke (width 0) (type default)) (uuid e024b8fb-53bb-4e01-b0ec-9677f2968b8c))
+  (symbol (lib_id "power:+3V3") (at 104.76 95.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 897255ae-3223-458a-9212-5497de861a60)
+    (property "Reference" "#PWR003" (at 107.3 92.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "+3V3" (at 107.3 97.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 104.76 95.08 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid f493dbd7-97a5-4558-90e3-c47541346bb8))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "#PWR003") (unit 1))))
+  )
+  (wire (pts (xy 120 77.3) (xy 120 72.22)) (stroke (width 0) (type default)) (uuid bd4ca549-5dc9-4a19-bb87-54b0fbb2b462))
+  (symbol (lib_id "power:+3V3") (at 120 72.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid ab0cafb1-ba84-474d-a3af-e88a6e3a3041)
+    (property "Reference" "#PWR004" (at 122.54 69.68 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "+3V3" (at 122.54 74.76 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 120 72.22 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid af2ad460-8dba-464d-9e22-9d31204024b1))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "#PWR004") (unit 1))))
+  )
+  (symbol (lib_id "Device:C") (at 150 90 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 47501035-235b-4d52-9d4a-b2263b83f44a)
+    (property "Reference" "C12" (at 152.54 87.46 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100nF" (at 152.54 92.54 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 150 90 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid f0d34826-d09a-4705-bab7-efa7ffc8a329))
+    (pin "2" (uuid f7207fc7-3eea-4946-be34-aafccf5f0518))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "C12") (unit 1))))
+  )
+  (wire (pts (xy 150 86.19) (xy 150 81.11)) (stroke (width 0) (type default)) (uuid 0642567b-450f-4669-8654-266cd60d5f4d))
+  (symbol (lib_id "power:+3V3") (at 150 81.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid c1a0d578-b745-4b49-a122-a19372ac1639)
+    (property "Reference" "#PWR005" (at 152.54 78.57 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "+3V3" (at 152.54 83.65 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 150 81.11 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 8df11db4-5126-42da-8742-445d85764574))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "#PWR005") (unit 1))))
+  )
+  (wire (pts (xy 150 93.81) (xy 150 98.89)) (stroke (width 0) (type default)) (uuid 79d26605-79e5-41c4-80cf-0416fbf34efb))
+  (symbol (lib_id "power:GND") (at 150 98.89 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 0b03fdfe-e8c3-4cf7-8cea-7aa4a369d18e)
+    (property "Reference" "#PWR006" (at 152.54 96.35 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Value" "GND" (at 152.54 101.43 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "" (at 150 98.89 0) (effects (font (size 1.27 1.27)) hide))
+    (pin "1" (uuid 944fcbd8-9195-469c-8630-84d77f3c5f9c))
+    (instances (project "SnowOwl-Shield" (path "/4e94e7f7-7328-40c5-88b8-5d45dab38b09" (reference "#PWR006") (unit 1))))
+  )
   (sheet_instances (path "/" (page "1")))
 )
