@@ -5,11 +5,11 @@
     (comment 1 "ESP32-SnowOwl v2 - compact 2-board stack"))
   (lib_symbols)
   (text "ESP32-SnowOwl v2  --  SHIELD (expansion)
-Organising principle: J1 (lower-centre horizontal strip) is the trunk; a
-central SPI SPINE runs NORTH from it and every SPI radio TAPS OFF it (no
-point-to-point runs). All antennas live on edges with their front-ends
-immediately inboard. I2C branches WEST to PN532; UART branches EAST to
-C5/RV1106/GPS. Big modules (nRF24 x3, RV1106) go on the BACK." (at 20 15 0)
+Organising principle: the ESP32-C5 (centre) MASTERS the SPI spine; every SPI
+radio (CC1101/CC1200/SX1262, 3x nRF24, W25Q128 flash) TAPS OFF it with a short
+stub. The S3 does NOT touch the radios; it commands the C5 over one UART on J1.
+Antennas live on edges, front-ends inboard. I2C -> PN532 (west). Big modules
+(nRF24 x3, RV1106) sit on the BACK. See PLACEMENT.md for zones + J1 pinout." (at 20 15 0)
     (effects (font (size 1.5 1.5)) (justify left top)) (uuid fc12b3b8-c21b-4041-930a-eb781b3f170e))
   (sheet (at 25.0 40.0) (size 45.0 24.0) (fields_autoplaced)
     (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000))

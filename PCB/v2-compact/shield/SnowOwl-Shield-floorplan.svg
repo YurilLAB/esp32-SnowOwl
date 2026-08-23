@@ -1,93 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="622" height="495" viewBox="0 0 622 495">
-<rect width="622" height="495" fill="#0a0f0c"/>
-<text x="24" y="30" font-size="20" font-family="sans-serif" fill="#eef" font-weight="700">SnowOwl v2 - Shield</text>
-<text x="24" y="50" font-size="11.5" font-family="sans-serif" fill="#8ab">Placement floorplan (skeleton) - zones map 1:1 to schematic sheets</text>
-<text x="24" y="66" font-size="10.5" font-family="sans-serif" fill="#6a7">outline 60 x 85 mm &#183; 4-layer &#183; blue = front, orange (dashed) = back, green = J1 datum</text>
-<rect x="24" y="78" width="252.0" height="357.0" rx="12.600000000000001" fill="#0f2417" stroke="#2f6b45" stroke-width="2"/>
-<circle cx="40.8" cy="94.8" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<circle cx="259.20000000000005" cy="94.8" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<circle cx="40.8" cy="418.2" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<circle cx="259.20000000000005" cy="418.2" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<rect x="40.8" y="103.2" width="54.6" height="84.0" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="43.8" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">CC1101 (SubGHz)</text>
-<rect x="99.60000000000001" y="103.2" width="54.6" height="84.0" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="102.60000000000001" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">CC1200 (SubGHz)</text>
-<rect x="158.4" y="103.2" width="54.6" height="84.0" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="161.4" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">SX1262 LoRa</text>
-<rect x="217.20000000000002" y="103.2" width="46.2" height="84.0" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="220.20000000000002" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">GPS NEO-M9N</text>
-<rect x="36.6" y="204.0" width="75.60000000000001" height="92.4" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="39.6" y="217.0" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">PN532 NFC + coil</text>
-<rect x="124.80000000000001" y="204.0" width="50.400000000000006" height="42.0" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="127.80000000000001" y="217.0" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">W25Q128 flash</text>
-<rect x="124.80000000000001" y="254.4" width="50.400000000000006" height="42.0" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="127.80000000000001" y="267.4" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">IR RX/TX</text>
-<rect x="192.0" y="204.0" width="71.4" height="92.4" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="195.0" y="217.0" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">ESP32-C5 + LDO (U.FL)</text>
-<rect x="36.6" y="300.6" width="63.0" height="29.400000000000002" fill="rgba(58,143,214,0.14)" stroke="#3a8fd6" stroke-width="1.4" />
-<text x="39.6" y="313.6" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">iButton / 1-Wire</text>
-<rect x="99.994" y="336.40000000000003" width="100.012" height="14.668000000000001" fill="rgba(60,200,120,0.18)" stroke="#3ec878" stroke-width="1.6"/>
-<circle cx="101.994" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="112.662" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="123.33" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="133.998" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="144.666" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="155.334" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="166.002" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="176.67000000000002" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="187.33800000000002" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="198.006" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="101.994" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="112.662" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="123.33" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="133.998" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="144.666" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="155.334" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="166.002" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="176.67000000000002" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="187.33800000000002" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="198.006" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<text x="99.994" y="363.06800000000004" font-size="9.5" font-family="sans-serif" fill="#8fe8b4">J1 stack (shared datum)</text>
-<text x="150.0" y="72" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#9fb">FRONT (top) &#8593; N</text>
-<rect x="346.0" y="78" width="252.0" height="357.0" rx="12.600000000000001" fill="#0f2417" stroke="#2f6b45" stroke-width="2"/>
-<circle cx="362.8" cy="94.8" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<circle cx="581.2" cy="94.8" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<circle cx="362.8" cy="418.2" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<circle cx="581.2" cy="418.2" r="6.720000000000001" fill="#0b0b0b" stroke="#c9a227" stroke-width="1.4"/>
-<rect x="362.8" y="103.2" width="67.2" height="84.0" fill="rgba(224,151,42,0.14)" stroke="#e0972a" stroke-width="1.4" stroke-dasharray="5 3"/>
-<text x="365.8" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">nRF24 #1</text>
-<rect x="438.4" y="103.2" width="67.2" height="84.0" fill="rgba(224,151,42,0.14)" stroke="#e0972a" stroke-width="1.4" stroke-dasharray="5 3"/>
-<text x="441.4" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">nRF24 #2</text>
-<rect x="514.0" y="103.2" width="67.2" height="84.0" fill="rgba(224,151,42,0.14)" stroke="#e0972a" stroke-width="1.4" stroke-dasharray="5 3"/>
-<text x="517.0" y="116.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">nRF24 #3</text>
-<rect x="358.6" y="220.8" width="100.80000000000001" height="109.2" fill="rgba(224,151,42,0.14)" stroke="#e0972a" stroke-width="1.4" stroke-dasharray="5 3"/>
-<text x="361.6" y="233.8" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">HTRC110 125kHz + coil</text>
-<rect x="476.20000000000005" y="220.8" width="109.2" height="109.2" fill="rgba(224,151,42,0.14)" stroke="#e0972a" stroke-width="1.4" stroke-dasharray="5 3"/>
-<text x="479.20000000000005" y="233.8" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">RV1106 Luckfox SoM</text>
-<rect x="358.6" y="355.2" width="113.4" height="67.2" fill="rgba(224,151,42,0.14)" stroke="#e0972a" stroke-width="1.4" stroke-dasharray="5 3"/>
-<text x="361.6" y="368.2" font-size="10" font-family="sans-serif" fill="#eef" font-weight="600">bulk caps / power</text>
-<rect x="421.994" y="336.40000000000003" width="100.012" height="14.668000000000001" fill="rgba(60,200,120,0.18)" stroke="#3ec878" stroke-width="1.6"/>
-<circle cx="423.994" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="434.66200000000003" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="445.33" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="455.998" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="466.666" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="477.334" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="488.002" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="498.67" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="509.338" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="520.006" cy="338.40000000000003" r="2.1" fill="#3ec878"/>
-<circle cx="423.994" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="434.66200000000003" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="445.33" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="455.998" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="466.666" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="477.334" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="488.002" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="498.67" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="509.338" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<circle cx="520.006" cy="349.06800000000004" r="2.1" fill="#3ec878"/>
-<text x="421.994" y="363.06800000000004" font-size="9.5" font-family="sans-serif" fill="#8fe8b4">J1 stack (shared datum)</text>
-<text x="472.0" y="72" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#9fb">BACK (bottom, not mirrored) &#8593; N</text>
-<text x="24" y="453.0" font-size="10" font-family="sans-serif" fill="#d66">edge I/O: SMA1  SMA2  SMA3  SMA4  &lt; NFC coil  C5 U.FL &gt;  RV1106 USB-C &gt;  &lt; LF coil</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="568" height="432" viewBox="0 0 568 432">
+<rect width="100%%" height="100%%" fill="#08120c"/>
+<text x="26" y="22" fill="#ffffff" font-size="17" font-weight="bold">SnowOwl v2 - Shield  (C5 owns the radios)</text>
+<text x="26" y="38" fill="#6fae8b" font-size="10">70 x 100 mm  -  4 layer  -  blue solid = FRONT (User.1), orange dashed = BACK (User.2), green = J1 datum</text>
+<rect x="26" y="56" width="238" height="340" rx="8" fill="#0c2016" stroke="#3f7d5a" stroke-width="2"/>
+<text x="26" y="50" fill="#cfe8d8" font-size="13" font-weight="bold">FRONT (top)  N up</text>
+<circle cx="39.6" cy="69.6" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<circle cx="250.4" cy="69.6" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<circle cx="39.6" cy="382.4" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<circle cx="250.4" cy="382.4" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<rect x="39.6" y="76.4" width="81.6" height="54.4" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="42.6" y="87.4" fill="#eaf3ee" font-size="8.5">CC1101 (SubGHz)</text>
+<rect x="128" y="76.4" width="37.4" height="54.4" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="131" y="87.4" fill="#eaf3ee" font-size="8.5">CC1200</text>
+<rect x="172.2" y="76.4" width="37.4" height="54.4" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="175.2" y="87.4" fill="#eaf3ee" font-size="8.5">SX1262 LoRa</text>
+<rect x="216.4" y="76.4" width="40.8" height="61.2" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="219.4" y="87.4" fill="#eaf3ee" font-size="8.5">GPS NEO-M9N</text>
+<rect x="32.8" y="144.4" width="47.6" height="102" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="35.8" y="155.4" fill="#eaf3ee" font-size="8.5">PN532 NFC + coil</text>
+<rect x="87.2" y="151.2" width="40.8" height="40.8" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="90.2" y="162.2" fill="#eaf3ee" font-size="8.5">W25Q128 flash</text>
+<rect x="87.2" y="198.8" width="47.6" height="40.8" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="90.2" y="209.8" fill="#eaf3ee" font-size="8.5">IR RX/TX</text>
+<rect x="134.8" y="151.2" width="81.6" height="81.6" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="137.8" y="162.2" fill="#eaf3ee" font-size="8.5">ESP32-C5 (SPI MASTER)</text>
+<rect x="32.8" y="260" width="47.6" height="34" fill="#10344d" fill-opacity="0.35" stroke="#3aa0d8" stroke-width="1.3" />
+<text x="35.8" y="271" fill="#eaf3ee" font-size="8.5">iButton/1-Wire</text>
+<rect x="106.138" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="114.774" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="123.41" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="132.046" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="140.682" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="149.318" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="157.954" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="166.59" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="175.226" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="183.862" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="106.138" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="114.774" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="123.41" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="132.046" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="140.682" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="149.318" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="157.954" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="166.59" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="175.226" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="183.862" y="323.036" width="5" height="5" fill="#39d98a"/>
+<text x="106.138" y="336.4" fill="#39d98a" font-size="8">J1 (shared datum)</text>
+<text x="53.2" y="67.9" fill="#e07a5a" font-size="8">SMA1</text>
+<text x="138.2" y="67.9" fill="#e07a5a" font-size="8">SMA2</text>
+<text x="182.4" y="67.9" fill="#e07a5a" font-size="8">SMA3</text>
+<text x="226.6" y="67.9" fill="#e07a5a" font-size="8">SMA4</text>
+<text x="27.7" y="195.4" fill="#e07a5a" font-size="8">&lt;NFC coil</text>
+<text x="230" y="195.4" fill="#e07a5a" font-size="8">C5 U.FL&gt;</text>
+<rect x="304" y="56" width="238" height="340" rx="8" fill="#0c2016" stroke="#3f7d5a" stroke-width="2"/>
+<text x="304" y="50" fill="#cfe8d8" font-size="13" font-weight="bold">BACK (bottom, not mirrored)  N up</text>
+<circle cx="317.6" cy="69.6" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<circle cx="528.4" cy="69.6" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<circle cx="317.6" cy="382.4" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<circle cx="528.4" cy="382.4" r="5" fill="none" stroke="#e0c060" stroke-width="1.6"/>
+<rect x="310.8" y="76.4" width="71.4" height="61.2" fill="#3a2c12" fill-opacity="0.35" stroke="#d8922a" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="313.8" y="87.4" fill="#eaf3ee" font-size="8.5">nRF24 #1</text>
+<rect x="385.6" y="76.4" width="71.4" height="61.2" fill="#3a2c12" fill-opacity="0.35" stroke="#d8922a" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="388.6" y="87.4" fill="#eaf3ee" font-size="8.5">nRF24 #2</text>
+<rect x="460.4" y="76.4" width="71.4" height="61.2" fill="#3a2c12" fill-opacity="0.35" stroke="#d8922a" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="463.4" y="87.4" fill="#eaf3ee" font-size="8.5">nRF24 #3</text>
+<rect x="310.8" y="151.2" width="61.2" height="102" fill="#3a2c12" fill-opacity="0.35" stroke="#d8922a" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="313.8" y="162.2" fill="#eaf3ee" font-size="8.5">HTRC110 125k + coil</text>
+<rect x="378.8" y="151.2" width="136" height="129.2" fill="#3a2c12" fill-opacity="0.35" stroke="#d8922a" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="381.8" y="162.2" fill="#eaf3ee" font-size="8.5">RV1106 Luckfox SoM</text>
+<rect x="310.8" y="294" width="136" height="81.6" fill="#3a2c12" fill-opacity="0.35" stroke="#d8922a" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="313.8" y="305" fill="#eaf3ee" font-size="8.5">bulk caps / power</text>
+<rect x="384.138" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="392.774" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="401.41" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="410.046" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="418.682" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="427.318" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="435.954" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="444.59" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="453.226" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="461.862" y="314.4" width="5" height="5" fill="#39d98a"/>
+<rect x="384.138" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="392.774" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="401.41" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="410.046" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="418.682" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="427.318" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="435.954" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="444.59" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="453.226" y="323.036" width="5" height="5" fill="#39d98a"/>
+<rect x="461.862" y="323.036" width="5" height="5" fill="#39d98a"/>
+<text x="384.138" y="336.4" fill="#39d98a" font-size="8">J1 (shared datum)</text>
+<text x="305.7" y="243" fill="#e07a5a" font-size="8">&lt;LF coil</text>
+<text x="467.2" y="260" fill="#e07a5a" font-size="8">RV1106 USB-C/uSD&gt;</text>
 </svg>
