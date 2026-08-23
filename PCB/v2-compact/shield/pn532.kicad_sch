@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid b1998975-23e6-4440-be9f-27b270cbda5d)
+  (paper "A4")
+  (title_block (title "07_NFC_PN532") (company "YurilLAB"))
+  (lib_symbols)
+  (text "07_NFC PN532 (13.56MHz)  [zone: WEST edge]
+PN532 on a DEDICATED I2C bus; 13.56MHz coil in a keepout out the west edge,
+away from the LF coil and the Sub-GHz." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 69f58355-b95f-4dde-a388-7e757c4054e5))
+  (sheet_instances (path "/" (page "1")))
+)

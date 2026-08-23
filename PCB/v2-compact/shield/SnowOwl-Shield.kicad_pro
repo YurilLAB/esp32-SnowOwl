@@ -1,0 +1,115 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {},
+      "rules": {}
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "SnowOwl-Shield.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "bus_width": 12,
+        "wire_width": 6,
+        "line_style": 0,
+        "pcb_color": "rgba(0,0,0,0.000)",
+        "schematic_color": "rgba(0,0,0,0.000)"
+      }
+    ],
+    "meta": {
+      "version": 3
+    }
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [
+    [
+      "6faefbcb-2206-4639-b683-d4f19cb4a926",
+      "Root"
+    ],
+    [
+      "fb5aadad-1606-4afb-b61d-83c88d97dec7",
+      "01_Stack_Header"
+    ],
+    [
+      "cf1f46f5-57e7-46c0-b7b1-4043744b6133",
+      "02_Power"
+    ],
+    [
+      "442d6b5c-962e-4146-b438-cd3c85e8b0d2",
+      "03_ESP32-C5"
+    ],
+    [
+      "86142445-0032-45a3-b0e0-5822a5710b20",
+      "04_RV1106_Linux"
+    ],
+    [
+      "ad9c4b62-e2f2-49c6-8326-8fb6ee1cc8a9",
+      "05_SubGHz"
+    ],
+    [
+      "765ccdbf-db09-4383-be43-17bfd633b301",
+      "06_nRF24_x3"
+    ],
+    [
+      "06397c2d-cc8e-4bb4-bd15-b2dc42488b13",
+      "07_NFC_PN532"
+    ],
+    [
+      "006a1a27-5e89-426a-864c-443bcf015710",
+      "08_LF_RFID_HTRC110"
+    ],
+    [
+      "4aa11106-81ba-45f6-b765-397dad10c1a1",
+      "09_iButton_1Wire"
+    ],
+    [
+      "52703776-a060-480e-8a07-9564c1047312",
+      "10_GPS"
+    ],
+    [
+      "b94f6048-3777-49c3-829c-4511a61a4459",
+      "11_IR"
+    ],
+    [
+      "46c1045a-2200-4d4a-8142-c0333217354e",
+      "12_Flash_Storage"
+    ]
+  ],
+  "text_variables": {}
+}

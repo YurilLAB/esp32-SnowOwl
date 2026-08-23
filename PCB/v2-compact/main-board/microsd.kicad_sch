@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 2d1f32b9-dcfe-4404-8059-f23a05ebb004)
+  (paper "A4")
+  (title_block (title "04_microSD") (company "YurilLAB"))
+  (lib_symbols)
+  (text "04_microSD  [zone: EAST edge]
+microSD socket (SD/SPI) for the S3, card-detect, series terms.
+NETS: SD bus from S3 (short east run)." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 39526a06-2722-40d0-bf65-e3d64978509a))
+  (sheet_instances (path "/" (page "1")))
+)

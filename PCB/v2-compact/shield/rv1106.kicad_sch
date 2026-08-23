@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 2984a678-a8a2-4fe2-881a-7b48ce916842)
+  (paper "A4")
+  (title_block (title "04_RV1106_Linux") (company "YurilLAB"))
+  (lib_symbols)
+  (text "04_RV1106 ARM Linux  [zone: SE quadrant, BACK - big module]
+Luckfox Core1106 SoM, own USB-C + microSD at the board edge.
+LINK: UART/IPC to S3 via J1 (short)." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 70a24e22-ea9a-4526-ae97-3f72b988a634))
+  (sheet_instances (path "/" (page "1")))
+)

@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 692ccd45-03d6-48a5-bf44-4c0201512f30)
+  (paper "A4")
+  (title_block (title "03_Display_UI") (company "YurilLAB"))
+  (lib_symbols)
+  (text "03_Display_UI  [zone: NORTH edge]
+TFT display connector (SPI), 3x nav tact switches, status LEDs.
+NETS: display SPI/CS/DC/RST/BL from S3 (short, straight north)." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid bc724278-d3ba-4d29-9e61-546261c8242f))
+  (sheet_instances (path "/" (page "1")))
+)

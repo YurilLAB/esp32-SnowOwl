@@ -1,8 +1,18 @@
 # 🦉 ESP32-SnowOwl — Hardware
 
-KiCad 10 design for the SnowOwl shield and the extended main board.
+KiCad design for the SnowOwl 2-board stack (main board + shield).
 
-## Renders
+## PCB source → [`../PCB/`](../PCB)
+
+All CAD lives under [`../PCB/`](../PCB), with old and new kept separate:
+
+- **[`PCB/v2-compact/`](../PCB/v2-compact)** — the **active** ground-up remake: a compact,
+  deliberately floorplanned **2-board stack** (`main-board/` + `shield/`). Start with
+  [`PCB/v2-compact/PLACEMENT.md`](../PCB/v2-compact/PLACEMENT.md) for the zone map and the
+  bus/routing strategy.
+- **[`PCB/v1-original/`](../PCB/v1-original)** — the original board, archived (renders only).
+
+## Renders (v1)
 
 | Front | Back |
 |---|---|
@@ -34,6 +44,12 @@ Dedicated planes give every radio a solid return path and a quiet supply — the
 
 ## Status
 
-Placement and power planning are complete; final signal routing is in progress. The RF nets (Sub-GHz, NFC coil, GPS) are intentionally left for short, matched hand-routing.
+**Redesign in progress — v2 (2-board stack).** The board is being remade from scratch to
+fix v1's spread-out placement (which forced long cross-board traces). v2 keeps every
+radio/reader but floorplans each subsystem deliberately so routing stays local.
 
-> Full KiCad source files are being tidied for publication — open an issue if you'd like them sooner.
+Current v2 state (in [`../PCB/v2-compact/`](../PCB/v2-compact)): floorplan **skeleton** —
+both KiCad projects open with the compact `60 × 85 mm` outline, the 4-layer stackup, the
+shared 20-pin `J1` stack datum, mounting holes, and labelled placement zones. Symbols,
+footprints and routing are the next passes. The RF nets (Sub-GHz, NFC coil, GPS) are still
+reserved for short, matched hand-routing.

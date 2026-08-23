@@ -1,0 +1,12 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 6b1986b6-88fa-42d5-b5fa-71e0006567f8)
+  (paper "A4")
+  (title_block (title "02_ESP32-S3") (company "YurilLAB"))
+  (lib_symbols)
+  (text "02_ESP32-S3  [zone: CENTER - the hub]
+ESP32-S3 (module/WROOM-1), boot/EN, decoupling, onboard antenna keepout to edge.
+BUS MASTERS: SPI (SCK/MOSI/MISO), I2C, UART x2, GPIO.
+All buses fan SOUTH to J1 stack header; display bus fans NORTH." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid cc065a11-6f26-4e0e-a4dd-a85dc831fa70))
+  (sheet_instances (path "/" (page "1")))
+)

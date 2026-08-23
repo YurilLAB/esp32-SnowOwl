@@ -1,0 +1,87 @@
+{
+  "board": {
+    "design_settings": {
+      "defaults": {},
+      "rules": {}
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "SnowOwl-Main.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "bus_width": 12,
+        "wire_width": 6,
+        "line_style": 0,
+        "pcb_color": "rgba(0,0,0,0.000)",
+        "schematic_color": "rgba(0,0,0,0.000)"
+      }
+    ],
+    "meta": {
+      "version": 3
+    }
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "legacy_lib_dir": "",
+    "legacy_lib_list": []
+  },
+  "sheets": [
+    [
+      "b8c64a55-b65e-44a1-a4cd-011282863403",
+      "Root"
+    ],
+    [
+      "adcfe2b9-6d78-4d61-851f-5f231456b7ce",
+      "01_Power_USB"
+    ],
+    [
+      "8fdf589c-9e8c-41e9-921c-e30d761563d7",
+      "02_ESP32-S3"
+    ],
+    [
+      "df6b28a8-95e5-4701-a1cc-fdab64e39be9",
+      "03_Display_UI"
+    ],
+    [
+      "6728e98b-ec51-44d1-a54c-e9307606025a",
+      "04_microSD"
+    ],
+    [
+      "df1719ef-f114-4c7b-9b85-212759b43325",
+      "05_Stack_Header"
+    ]
+  ],
+  "text_variables": {}
+}

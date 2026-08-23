@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 29b69b5c-af7b-4de2-8c89-9c594bd981d2)
+  (paper "A4")
+  (title_block (title "03_ESP32-C5") (company "YurilLAB"))
+  (lib_symbols)
+  (text "03_ESP32-C5 (5GHz Wi-Fi)  [zone: EAST edge]
+ESP32-C5-WROOM-1U, AP7361C rail, U.FL to the east edge, C5_PROG_UART header.
+LINK: UART to S3 via J1 (few signals, short)." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 47a7132e-2ace-4889-a2f9-be64004cdec2))
+  (sheet_instances (path "/" (page "1")))
+)

@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 8de2e076-300d-442e-aec0-05eda2246485)
+  (paper "A4")
+  (title_block (title "08_LF_RFID_HTRC110") (company "YurilLAB"))
+  (lib_symbols)
+  (text "08_LF RFID HTRC110 (125kHz)  [zone: SW, BACK]
+HTRC110 front-end + 125kHz coil connector out the edge. Kept diagonally
+opposite the NFC coil to minimise coupling." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 8eeeb84d-8d29-4f35-912d-42fdba72cbf3))
+  (sheet_instances (path "/" (page "1")))
+)

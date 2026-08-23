@@ -1,0 +1,10 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 5fd2ff21-7678-49f7-bcd1-494c17834b42)
+  (paper "A4")
+  (title_block (title "09_iButton_1Wire") (company "YurilLAB"))
+  (lib_symbols)
+  (text "09_iButton / 1-Wire  [zone: WEST edge contact]
+Dallas iButton probe / 1-Wire header, ESD, pull-up. Single GPIO from J1." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 36be7329-9962-41b0-a067-2e07473b7610))
+  (sheet_instances (path "/" (page "1")))
+)

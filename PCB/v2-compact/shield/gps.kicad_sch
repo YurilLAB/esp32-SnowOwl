@@ -1,0 +1,11 @@
+(kicad_sch (version 20230121) (generator eeschema)
+  (uuid 4c0e2095-e5e4-4d74-9b62-189d047b0d63)
+  (paper "A4")
+  (title_block (title "10_GPS") (company "YurilLAB"))
+  (lib_symbols)
+  (text "10_GPS NEO-M9N  [zone: NE corner]
+u-blox NEO-M9N, antenna (SMA/patch) at the corner with clear sky, backup
+supply. UART to S3 via J1." (at 15 15 0)
+    (effects (font (size 1.4 1.4)) (justify left top)) (uuid 33bcba22-259a-4a01-9e13-13a76a3c94c8))
+  (sheet_instances (path "/" (page "1")))
+)
