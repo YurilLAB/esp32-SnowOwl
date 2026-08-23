@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "SnowOwl")(type "KiCad")(uri "${KIPRJMOD}/../SnowOwl.pretty")(options "")(descr "SnowOwl v2 custom footprints"))
+)
