@@ -2687,7 +2687,7 @@
 	(footprint "C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2c0cf21c-efb0-4a8e-9ab7-15c7fd6d3742")
-		(at 93.84 58.69 180)
+		(at 91.84 77.69 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -2991,7 +2991,7 @@
 	(footprint "C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "4a9d79b9-c2a4-46b0-ada2-61259da7796a")
-		(at 69 70 180)
+		(at 69 77 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C33"
@@ -3489,7 +3489,7 @@
 	(footprint "microSD_HC_Hirose_DM3AT-SF-PEJM5"
 		(layer "B.Cu")
 		(uuid "56bf99bc-42ea-4924-921b-050db7177d44")
-		(at 93 71 180)
+		(at 91 90 180)
 		(descr "Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)")
 		(tags "Micro SD")
 		(property "Reference" "J30"
@@ -4125,7 +4125,7 @@
 			)
 			(polygon
 				(pts
-					(xy 89.725 69.875) (xy 98.425 69.875) (xy 98.425 68.275) (xy 89.725 68.275)
+					(xy 87.725 88.875) (xy 96.425 88.875) (xy 96.425 87.275) (xy 87.725 87.275)
 				)
 			)
 		)
@@ -4155,7 +4155,7 @@
 			)
 			(polygon
 				(pts
-					(xy 90.075 77.975) (xy 87.525 77.975) (xy 87.525 79.325) (xy 90.075 79.325)
+					(xy 88.075 96.975) (xy 85.525 96.975) (xy 85.525 98.325) (xy 88.075 98.325)
 				)
 			)
 		)
@@ -4185,7 +4185,7 @@
 			)
 			(polygon
 				(pts
-					(xy 99.125 69.575) (xy 98.425 69.575) (xy 98.425 77.175) (xy 99.125 77.175)
+					(xy 97.125 88.575) (xy 96.425 88.575) (xy 96.425 96.175) (xy 97.125 96.175)
 				)
 			)
 		)
@@ -4215,7 +4215,7 @@
 			)
 			(polygon
 				(pts
-					(xy 99.475 66.975) (xy 100.225 66.975) (xy 100.225 63.725) (xy 99.475 63.725)
+					(xy 97.475 85.975) (xy 98.225 85.975) (xy 98.225 82.725) (xy 97.475 82.725)
 				)
 			)
 		)
@@ -4245,7 +4245,7 @@
 			)
 			(polygon
 				(pts
-					(xy 99.475 71.775) (xy 100.225 71.775) (xy 100.225 68.175) (xy 99.475 68.175)
+					(xy 97.475 90.775) (xy 98.225 90.775) (xy 98.225 87.175) (xy 97.475 87.175)
 				)
 			)
 		)
@@ -4417,7 +4417,7 @@
 	(footprint "R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "5cd719b8-7255-4322-a41a-bf9566229178")
-		(at 76 70 180)
+		(at 76 77 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -4569,7 +4569,7 @@
 	(footprint "C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "6ee7a73e-e360-4e74-8638-066a576eda13")
-		(at 93.72 60.38 180)
+		(at 91.72 79.38 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -4721,7 +4721,7 @@
 	(footprint "C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "6f5d9eb4-2cb4-42f7-8d0d-dd5f7746402c")
-		(at 55 70 180)
+		(at 55 77 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -5252,7 +5252,7 @@
 			(uuid "77259568-86f9-4485-89bc-c7565dcbaee6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "C:/Users/artimi/AppData/Local/Programs/KiCad/10.0/share/kicad/3dmodels/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5419,7 +5419,7 @@
 	(footprint "R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "a5b5189b-8b32-4063-ae07-0525100ece10")
-		(at 90.71 60.44 180)
+		(at 88.71 79.44 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
@@ -5957,7 +5957,7 @@
 	(footprint "R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "cf0a22bb-6771-4276-acb3-9e6b86af7743")
-		(at 75.64 72.79 180)
+		(at 69.59 79.25 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
@@ -6109,7 +6109,7 @@
 	(footprint "C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d125c91c-de63-4c78-a20b-a786bae2df84")
-		(at 62 70 180)
+		(at 62 77 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -6413,7 +6413,7 @@
 	(footprint "R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "db6c0468-5f8e-4137-a1ea-f3fd45cc0834")
-		(at 72.24 69.54 180)
+		(at 77.16 79.69 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R34"
@@ -6565,7 +6565,7 @@
 	(footprint "C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e112b8f3-5e39-469b-b515-02d61b103741")
-		(at 48 70 180)
+		(at 48 77 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C30"
@@ -6869,7 +6869,7 @@
 	(footprint "R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "f419e59c-faff-48c7-9a69-7a4eeb13087b")
-		(at 51.02 68.94 180)
+		(at 54.02 73.94 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
@@ -7021,7 +7021,7 @@
 	(footprint "ESP32-S3-WROOM-1"
 		(layer "B.Cu")
 		(uuid "fb1cee3c-67db-4569-b9c5-0b7c8b771d57")
-		(at 60 54 180)
+		(at 63 59 180)
 		(descr "2.4 GHz Wi-Fi and Bluetooth module  https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf")
 		(tags "2.4 GHz Wi-Fi and Bluetooth module")
 		(property "Reference" "U20"
@@ -7816,7 +7816,7 @@
 			)
 			(polygon
 				(pts
-					(xy 84 47.25) (xy 36 47.25) (xy 36 26.25) (xy 84 26.25)
+					(xy 87 52.25) (xy 39 52.25) (xy 39 31.25) (xy 87 31.25)
 				)
 			)
 		)
@@ -7842,7 +7842,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a140b920-9057-4c3f-b462-4ea9cc5b0303")
+		(uuid "158ee3de-d78e-4800-8f01-de15628394e7")
 	)
 	(gr_rect
 		(start 30 30)
@@ -7908,7 +7908,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b65ff155-28d6-42c4-9dcb-13722b0649c0")
+		(uuid "52fdd1b1-0233-4527-acc5-0f86b44e8e05")
 	)
 	(gr_rect
 		(start 36 46)
@@ -7990,7 +7990,7 @@
 	(gr_text "2.4\" TFT  (mounts on J31)"
 		(at 63.5 57 0)
 		(layer "F.SilkS")
-		(uuid "7e64a32e-0eff-4330-9a50-52fce51d9b0a")
+		(uuid "fb8799e9-3522-4af8-9dae-305bdc6744b8")
 		(effects
 			(font
 				(size 1.6 1.6)
