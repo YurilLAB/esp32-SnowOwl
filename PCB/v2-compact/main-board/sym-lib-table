@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name "SnowOwl")(type "KiCad")(uri "${KIPRJMOD}/../SnowOwl.kicad_sym")(options "")(descr "SnowOwl v2 custom symbols"))
-  (lib (name "Espressif")(type "KiCad")(uri "/d/dev/tools/espressif-kicad/symbols/Espressif.kicad_sym")(options "")(descr "Espressif modules"))
+  (lib (name "Espressif")(type "KiCad")(uri "D:/dev/tools/espressif-kicad/symbols/Espressif.kicad_sym")(options "")(descr "Espressif modules"))
 )
