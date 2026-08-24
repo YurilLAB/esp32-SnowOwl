@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "SnowOwl")(type "KiCad")(uri "${KIPRJMOD}/../SnowOwl.pretty")(options "")(descr "SnowOwl v2 custom footprints"))
+  (lib (name "SnowOwl")(type "KiCad")(uri "${KIPRJMOD}/../SnowOwl.pretty")(options "")(descr "SnowOwl v2 custom footprints")  (lib (name "Espressif")(type "KiCad")(uri "D:/dev/tools/espressif-kicad/footprints/Espressif.pretty")(options "")(descr "Espressif module footprints"))
+)
 )
