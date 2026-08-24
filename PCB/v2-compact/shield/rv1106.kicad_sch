@@ -1756,7 +1756,7 @@
     (in_bom yes) (on_board yes) (dnp no) (uuid 29073543-3443-42d5-b57d-a85eff5fe027)
     (property "Reference" "U30" (at 182.88 127 0) (effects (font (size 1.27 1.27))))
     (property "Value" "Core1106_RV1106" (at 182.88 132.08 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 180.34 129.54 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Footprint" "SnowOwl:RV1106_Core1106" (at 180.34 129.54 0) (effects (font (size 1.27 1.27)) hide))
     (pin "1" (uuid c56530bd-c92f-4965-8c81-974cea36f670))
     (pin "2" (uuid 1d548490-d56a-4c32-97c8-a5b628648cc2))
     (pin "3" (uuid 9656bb66-75fb-4872-8eb3-9fca27cca2b2))
