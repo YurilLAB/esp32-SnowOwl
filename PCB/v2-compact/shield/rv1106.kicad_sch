@@ -1,5 +1,5 @@
 (kicad_sch (version 20230121) (generator eeschema)
-  (uuid dcab83ed-461d-4674-975b-8b9b1e0d5300)
+  (uuid 940eada5-9945-46d8-b2bf-74fe28b619ce)
   (paper "A3")
   (title_block (title "04_RV1106_Linux") (company "YurilLAB"))
   (lib_symbols
@@ -272,1093 +272,6 @@
     					)
     				)
     				(number "1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    		)
-    		(embedded_fonts no)
-    	)
-    (symbol "Connector:USB_C_Receptacle"
-    		(pin_names
-    			(offset 1.016)
-    		)
-    		(exclude_from_sim no)
-    		(in_bom yes)
-    		(on_board yes)
-    		(in_pos_files yes)
-    		(duplicate_pin_numbers_are_jumpers no)
-    		(property "Reference" "J"
-    			(at -10.16 29.21 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    				(justify left)
-    			)
-    		)
-    		(property "Value" "USB_C_Receptacle"
-    			(at 10.16 29.21 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    				(justify right)
-    			)
-    		)
-    		(property "Footprint" ""
-    			(at 3.81 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-    			(at 3.81 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "ki_keywords" "usb universal serial bus type-C full-featured"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "ki_fp_filters" "USB*C*Receptacle*"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(symbol "USB_C_Receptacle_0_0"
-    			(rectangle
-    				(start -0.254 -35.56)
-    				(end 0.254 -34.544)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 25.654)
-    				(end 9.144 25.146)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 20.574)
-    				(end 9.144 20.066)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 18.034)
-    				(end 9.144 17.526)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 12.954)
-    				(end 9.144 12.446)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 10.414)
-    				(end 9.144 9.906)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 7.874)
-    				(end 9.144 7.366)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 5.334)
-    				(end 9.144 4.826)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 0.254)
-    				(end 9.144 -0.254)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -2.286)
-    				(end 9.144 -2.794)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -7.366)
-    				(end 9.144 -7.874)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -9.906)
-    				(end 9.144 -10.414)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -14.986)
-    				(end 9.144 -15.494)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -17.526)
-    				(end 9.144 -18.034)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -22.606)
-    				(end 9.144 -23.114)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -25.146)
-    				(end 9.144 -25.654)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -30.226)
-    				(end 9.144 -30.734)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start 10.16 -32.766)
-    				(end 9.144 -33.274)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    		)
-    		(symbol "USB_C_Receptacle_0_1"
-    			(rectangle
-    				(start -10.16 27.94)
-    				(end 10.16 -35.56)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type background)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy -8.89 -3.81) (xy -8.89 3.81)
-    				)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(rectangle
-    				(start -7.62 -3.81)
-    				(end -6.35 3.81)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(arc
-    				(start -7.62 3.81)
-    				(mid -6.985 4.4423)
-    				(end -6.35 3.81)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(arc
-    				(start -7.62 3.81)
-    				(mid -6.985 4.4423)
-    				(end -6.35 3.81)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(arc
-    				(start -8.89 3.81)
-    				(mid -6.985 5.7067)
-    				(end -5.08 3.81)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(arc
-    				(start -5.08 -3.81)
-    				(mid -6.985 -5.7067)
-    				(end -8.89 -3.81)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(arc
-    				(start -6.35 -3.81)
-    				(mid -6.985 -4.4423)
-    				(end -7.62 -3.81)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(arc
-    				(start -6.35 -3.81)
-    				(mid -6.985 -4.4423)
-    				(end -7.62 -3.81)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy -5.08 3.81) (xy -5.08 -3.81)
-    				)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    		)
-    		(symbol "USB_C_Receptacle_1_1"
-    			(circle
-    				(center -2.54 1.143)
-    				(radius 0.635)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-    				)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-    				)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-    				)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(polyline
-    				(pts
-    					(xy 0 -5.842) (xy 0 4.318)
-    				)
-    				(stroke
-    					(width 0.508)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    			(circle
-    				(center 0 -5.842)
-    				(radius 1.27)
-    				(stroke
-    					(width 0)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(rectangle
-    				(start 1.905 1.778)
-    				(end 3.175 3.048)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type outline)
-    				)
-    			)
-    			(pin passive line
-    				(at 0 -40.64 90)
-    				(length 5.08)
-    				(name "GND"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -10.16 180)
-    				(length 5.08)
-    				(name "TX1+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A2"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -7.62 180)
-    				(length 5.08)
-    				(name "TX1-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A3"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 15.24 25.4 180)
-    				(length 5.08)
-    				(name "VBUS"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A4"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 20.32 180)
-    				(length 5.08)
-    				(name "CC1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A5"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 7.62 180)
-    				(length 5.08)
-    				(name "D+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A6"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 12.7 180)
-    				(length 5.08)
-    				(name "D-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A7"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -30.48 180)
-    				(length 5.08)
-    				(name "SBU1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A8"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 15.24 25.4 180)
-    				(length 5.08)
-    				(hide yes)
-    				(name "VBUS"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A9"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -15.24 180)
-    				(length 5.08)
-    				(name "RX2-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A10"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -17.78 180)
-    				(length 5.08)
-    				(name "RX2+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A11"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 0 -40.64 90)
-    				(length 5.08)
-    				(hide yes)
-    				(name "GND"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "A12"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 0 -40.64 90)
-    				(length 5.08)
-    				(hide yes)
-    				(name "GND"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -25.4 180)
-    				(length 5.08)
-    				(name "TX2+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B2"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -22.86 180)
-    				(length 5.08)
-    				(name "TX2-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B3"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 15.24 25.4 180)
-    				(length 5.08)
-    				(hide yes)
-    				(name "VBUS"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B4"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 17.78 180)
-    				(length 5.08)
-    				(name "CC2"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B5"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 5.08 180)
-    				(length 5.08)
-    				(name "D+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B6"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 10.16 180)
-    				(length 5.08)
-    				(name "D-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B7"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -33.02 180)
-    				(length 5.08)
-    				(name "SBU2"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B8"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 15.24 25.4 180)
-    				(length 5.08)
-    				(hide yes)
-    				(name "VBUS"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B9"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 0 180)
-    				(length 5.08)
-    				(name "RX1-"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B10"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin bidirectional line
-    				(at 15.24 -2.54 180)
-    				(length 5.08)
-    				(name "RX1+"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B11"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 0 -40.64 90)
-    				(length 5.08)
-    				(hide yes)
-    				(name "GND"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "B12"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at -7.62 -40.64 90)
-    				(length 5.08)
-    				(name "SHIELD"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "SH"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    		)
-    		(embedded_fonts no)
-    	)
-    (symbol "Device:R"
-    		(pin_numbers
-    			(hide yes)
-    		)
-    		(pin_names
-    			(offset 0)
-    		)
-    		(exclude_from_sim no)
-    		(in_bom yes)
-    		(on_board yes)
-    		(in_pos_files yes)
-    		(duplicate_pin_numbers_are_jumpers no)
-    		(property "Reference" "R"
-    			(at 2.032 0 90)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Value" "R"
-    			(at 0 0 90)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Footprint" ""
-    			(at -1.778 0 90)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Datasheet" ""
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "Description" "Resistor"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "ki_keywords" "R res resistor"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(property "ki_fp_filters" "R_*"
-    			(at 0 0 0)
-    			(show_name no)
-    			(do_not_autoplace no)
-    			(hide yes)
-    			(effects
-    				(font
-    					(size 1.27 1.27)
-    				)
-    			)
-    		)
-    		(symbol "R_0_1"
-    			(rectangle
-    				(start -1.016 -2.54)
-    				(end 1.016 2.54)
-    				(stroke
-    					(width 0.254)
-    					(type default)
-    				)
-    				(fill
-    					(type none)
-    				)
-    			)
-    		)
-    		(symbol "R_1_1"
-    			(pin passive line
-    				(at 0 3.81 270)
-    				(length 1.27)
-    				(name ""
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "1"
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    			)
-    			(pin passive line
-    				(at 0 -3.81 90)
-    				(length 1.27)
-    				(name ""
-    					(effects
-    						(font
-    							(size 1.27 1.27)
-    						)
-    					)
-    				)
-    				(number "2"
     					(effects
     						(font
     							(size 1.27 1.27)
@@ -2007,360 +920,200 @@
     	)
   )
   (symbol (lib_id "SnowOwl:RV1106_Core1106") (at 180.34 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 7c19ffb2-cbb9-4481-bcab-10a4a429af7f)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 036dc05d-af46-4214-83f2-8cacbbaa4d68)
     (property "Reference" "U30" (at 182.88 127 0) (effects (font (size 1.27 1.27))))
     (property "Value" "Core1106_RV1106" (at 182.88 132.08 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "SnowOwl:RV1106_Core1106" (at 180.34 129.54 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid ab1ff00d-e198-4137-aad6-60817d16e1b3))
-    (pin "2" (uuid ba7a0f84-4b82-4f51-a1f2-95d7ef417637))
-    (pin "3" (uuid 2553d8e3-cf30-4b7d-80e7-44091fcf9571))
-    (pin "4" (uuid 554c031e-c22d-47c9-af92-99ca90be6c66))
-    (pin "5" (uuid e3170eeb-5a70-46a8-bbaa-71f5bcdb2365))
-    (pin "6" (uuid d2038e9f-fd1f-4789-8d95-8b1e67bb63c8))
-    (pin "7" (uuid 9d5a87a2-d6b4-40ce-a1cf-b9a26bf1be8e))
-    (pin "8" (uuid a672c0c3-5df6-4bfe-b3ac-ea15338c998c))
-    (pin "9" (uuid ee644194-f8b2-465e-a907-7037977d400a))
-    (pin "10" (uuid a965f456-e467-4fa5-b97b-072352effbdd))
-    (pin "11" (uuid 74bebfb8-e24b-4ab7-9113-2209270f7e96))
-    (pin "12" (uuid 679ca897-a481-426c-bbf8-c48edafd154a))
-    (pin "13" (uuid c5bb4dd7-3806-423e-bdf5-fd29a2e4a2b2))
-    (pin "14" (uuid fbc3b8da-a8f5-4bdc-8c75-3512073117f3))
+    (pin "1" (uuid 7a483ad7-ea0c-4ed4-9136-751e1b852114))
+    (pin "2" (uuid 7cd56649-8f2b-4cf0-af0d-200f54d8d8b4))
+    (pin "3" (uuid 3c47e176-10b9-4d13-a02f-2af22e91ef12))
+    (pin "4" (uuid cb5b15e2-c14b-4bc2-86bf-8a00609b2eea))
+    (pin "5" (uuid ec1e6e4d-1bf2-4486-bef3-d459010bac43))
+    (pin "6" (uuid d4307d67-275a-46b1-9028-ef43c1c4228a))
+    (pin "7" (uuid d260f5d1-e026-4023-b095-ac583637ca6a))
+    (pin "8" (uuid 1e4ba068-d3b0-468f-8175-a324b2c2bbbe))
+    (pin "9" (uuid c4555876-4e06-4b49-ab2a-abf61b578abc))
+    (pin "10" (uuid 73b2dc15-9ec1-4b9c-85f9-cbc94a7dd630))
+    (pin "11" (uuid 26335369-a7eb-44e2-ad49-a13c6bddf094))
+    (pin "12" (uuid ea0d2406-621e-49a6-85cb-820691e96f9b))
+    (pin "13" (uuid 26a1dd08-cc2b-461d-b287-a8f72f948358))
+    (pin "14" (uuid 665e7b19-213e-4e79-b550-e6854a399966))
     (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "U30") (unit 1))))
   )
-  (wire (pts (xy 167.64 124.46) (xy 162.56 124.46)) (stroke (width 0) (type default)) (uuid d1ea629a-95ef-4fec-b527-ba48f826a932))
+  (wire (pts (xy 167.64 124.46) (xy 162.56 124.46)) (stroke (width 0) (type default)) (uuid b00909c5-6a29-47cf-87a8-dab72b565535))
   (global_label "RV_TX" (shape bidirectional) (at 162.56 124.46 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 1d3c3cc9-9192-4272-a250-57c6dd92114b))
-  (wire (pts (xy 167.64 127) (xy 162.56 127)) (stroke (width 0) (type default)) (uuid 0a2682a1-7d49-4e29-80f6-6719a0283171))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 063c07f2-09ed-4bf9-b9b1-767424a13cae))
+  (wire (pts (xy 167.64 127) (xy 162.56 127)) (stroke (width 0) (type default)) (uuid a1dc53e7-a32e-4e0f-82b1-5e7992470446))
   (global_label "RV_RX" (shape bidirectional) (at 162.56 127 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid d681d873-0eab-49aa-bddb-988d571e09d0))
-  (wire (pts (xy 167.64 129.54) (xy 162.56 129.54)) (stroke (width 0) (type default)) (uuid 36ebbe12-501d-40b1-b55f-00ccb9faea6a))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid a4b23f88-4b9e-489a-b873-1553851374eb))
+  (wire (pts (xy 167.64 129.54) (xy 162.56 129.54)) (stroke (width 0) (type default)) (uuid aa97e257-a537-4149-96e2-21bb4cbc2c5e))
   (global_label "RV_CTRL" (shape bidirectional) (at 162.56 129.54 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 6f420626-571f-4a9f-89f9-2f45e2ddd19b))
-  (wire (pts (xy 167.64 132.08) (xy 162.56 132.08)) (stroke (width 0) (type default)) (uuid 4362361a-ea4d-4c81-b6f3-c1a481eb536b))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 4c4e87e4-7a3b-4fb2-9b69-29c1db80266a))
+  (wire (pts (xy 167.64 132.08) (xy 162.56 132.08)) (stroke (width 0) (type default)) (uuid 8fda3877-9cad-4263-bbcf-c93b47259e6e))
   (global_label "RV_USB_DP" (shape bidirectional) (at 162.56 132.08 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 6aa378c6-ab14-4185-97d3-0defe624415a))
-  (wire (pts (xy 167.64 134.62) (xy 162.56 134.62)) (stroke (width 0) (type default)) (uuid 29a4254b-2c6a-4109-abe3-8af0c33da262))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 23bb8eb9-a2f1-45c3-ac97-a6158a651c2c))
+  (wire (pts (xy 167.64 134.62) (xy 162.56 134.62)) (stroke (width 0) (type default)) (uuid dc524a0e-20be-4af0-8a72-77b6096eb4b6))
   (global_label "RV_USB_DM" (shape bidirectional) (at 162.56 134.62 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 39e88e10-e47d-4c2a-a2d2-e4a1947a5596))
-  (wire (pts (xy 193.04 124.46) (xy 198.12 124.46)) (stroke (width 0) (type default)) (uuid 111a634b-4c0b-4d58-b8b1-2157b0a62432))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 41d33d29-91b6-4250-a6d1-6a98ec5c57ac))
+  (wire (pts (xy 193.04 124.46) (xy 198.12 124.46)) (stroke (width 0) (type default)) (uuid fe37f8a1-9bec-4cbb-91d8-9f190a1eb5e1))
   (global_label "RVSD_CLK" (shape bidirectional) (at 198.12 124.46 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 46d837ae-96cb-4263-a9b5-f245d1d6dc9c))
-  (wire (pts (xy 193.04 127) (xy 198.12 127)) (stroke (width 0) (type default)) (uuid 0a39e045-7adb-47f7-8d08-c349134f8812))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid a11c42f2-df18-4c0d-b13b-95c7f945da96))
+  (wire (pts (xy 193.04 127) (xy 198.12 127)) (stroke (width 0) (type default)) (uuid b62f3d69-c5d6-4615-89e5-2fd76898f0da))
   (global_label "RVSD_CMD" (shape bidirectional) (at 198.12 127 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 7a537c88-8b6d-40eb-b318-89048c0bb625))
-  (wire (pts (xy 193.04 129.54) (xy 198.12 129.54)) (stroke (width 0) (type default)) (uuid 2d584e45-fbaf-4216-9763-0ce3c2bc07fb))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid 77462a1b-78fc-45b9-8e52-87732025e9bc))
+  (wire (pts (xy 193.04 129.54) (xy 198.12 129.54)) (stroke (width 0) (type default)) (uuid 0174f441-4eb2-4bb7-afdb-cf4b7402a9ab))
   (global_label "RVSD_D0" (shape bidirectional) (at 198.12 129.54 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 2eb5b60a-9302-4caa-bf21-e7a067197605))
-  (wire (pts (xy 193.04 132.08) (xy 198.12 132.08)) (stroke (width 0) (type default)) (uuid 11eb2702-7be9-483e-ab3e-307d84e77fb1))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid b35d0248-ea60-4e24-bf2a-5267739d4efc))
+  (wire (pts (xy 193.04 132.08) (xy 198.12 132.08)) (stroke (width 0) (type default)) (uuid 643d6f8f-7b5d-4943-8150-141aa8947517))
   (global_label "RVSD_D1" (shape bidirectional) (at 198.12 132.08 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 0dc39394-859d-4b39-b0fe-d3f120bb0f8d))
-  (wire (pts (xy 193.04 134.62) (xy 198.12 134.62)) (stroke (width 0) (type default)) (uuid 1cd8e8a7-3b8e-4809-9d99-cb8ab6fb3ba3))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid fcc0e294-f1d0-4a64-9d14-bd34ccad1ff3))
+  (wire (pts (xy 193.04 134.62) (xy 198.12 134.62)) (stroke (width 0) (type default)) (uuid 4d4c5050-b725-49e4-bbd7-9db2c8796f82))
   (global_label "RVSD_D2" (shape bidirectional) (at 198.12 134.62 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 5ba991f4-f4b9-4ad6-8ad8-ef699af8cb15))
-  (wire (pts (xy 193.04 137.16) (xy 198.12 137.16)) (stroke (width 0) (type default)) (uuid 9c6b64cb-2cb2-41fb-bb75-84e84195c96c))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid 529e9e5d-2e94-4477-a58f-f997b4ab622f))
+  (wire (pts (xy 193.04 137.16) (xy 198.12 137.16)) (stroke (width 0) (type default)) (uuid 428e8732-368f-4335-adfd-0f2e0e0354b8))
   (global_label "RVSD_D3" (shape bidirectional) (at 198.12 137.16 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 3ee61b1c-49a1-43db-978c-8f96846ddb03))
-  (wire (pts (xy 179.07 116.84) (xy 179.07 111.76)) (stroke (width 0) (type default)) (uuid d69f4442-1ee1-492b-a3e8-3ac5daa80d53))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid 9fe5d2d8-5754-4dec-8843-1fb669a8b34e))
+  (wire (pts (xy 179.07 116.84) (xy 179.07 111.76)) (stroke (width 0) (type default)) (uuid da1c87f7-6e1f-4f5d-aaa3-8a5d0bf239b9))
   (symbol (lib_id "power:+5V") (at 179.07 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 6b358a5c-2da5-48ff-9f2b-d6055b42a0b9)
-    (property "Reference" "#PWR5C922D7" (at 181.61 109.22 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid 2f0a4b14-45f9-4438-8ebf-13175f08c4bd)
+    (property "Reference" "#PWRB32DFD0" (at 181.61 109.22 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "+5V" (at 181.61 114.3 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 179.07 111.76 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 48b987b2-214d-4d4d-941b-e0db0082350b))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR5C922D7") (unit 1))))
+    (pin "1" (uuid cfaeb532-eb18-4b9f-a4c7-a87361bc6316))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRB32DFD0") (unit 1))))
   )
-  (wire (pts (xy 181.61 116.84) (xy 181.61 111.76)) (stroke (width 0) (type default)) (uuid af492186-e831-4eff-99d6-0d543b207da6))
+  (wire (pts (xy 181.61 116.84) (xy 181.61 111.76)) (stroke (width 0) (type default)) (uuid 05a01e94-675e-4731-bd8a-b2045dfee0a4))
   (global_label "RV_3V3" (shape bidirectional) (at 181.61 111.76 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid c15100cd-a58b-4ef4-b4c1-f4b10e370a1a))
-  (wire (pts (xy 180.34 142.24) (xy 180.34 147.32)) (stroke (width 0) (type default)) (uuid 634dd7c4-34ee-405f-b755-069632e31fa9))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid 78d85b48-7931-4648-855b-c3ae26e197fb))
+  (wire (pts (xy 180.34 142.24) (xy 180.34 147.32)) (stroke (width 0) (type default)) (uuid 4167867f-3a7a-47d1-af57-006adca0dae5))
   (symbol (lib_id "power:GND") (at 180.34 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 1cd4e6ca-f066-4071-affa-0da1f30494b6)
-    (property "Reference" "#PWRA25F04B" (at 182.88 144.78 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid 41558059-bd98-41de-be49-7bc61e31f9e0)
+    (property "Reference" "#PWR4B859F1" (at 182.88 144.78 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "GND" (at 182.88 149.86 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 180.34 147.32 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid b6c16418-9c59-4a3a-a564-89fff9a8152d))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRA25F04B") (unit 1))))
-  )
-  (symbol (lib_id "Connector:USB_C_Receptacle") (at 69.85 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 49adf906-4404-4f0d-8578-c17c30978e56)
-    (property "Reference" "J50" (at 72.39 127 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "USB-C" (at 72.39 132.08 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 69.85 129.54 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "A1" (uuid 7fa52dd7-6544-4d7c-87f9-d179165c843e))
-    (pin "A2" (uuid d29666b8-f75b-431f-b518-b479f5587310))
-    (pin "A3" (uuid 00021ba6-69bb-47f1-83d2-3f3cc9d1f30e))
-    (pin "A4" (uuid 3c2adb63-b6cf-495c-a050-9d1ccce465ba))
-    (pin "A5" (uuid 4ce0e22d-0599-4430-acf6-ee194261e886))
-    (pin "A6" (uuid 57b996ca-b602-424c-8f3e-ec0e6f292825))
-    (pin "A7" (uuid 141fa867-625d-4bb7-9bea-1987b20bb69e))
-    (pin "A8" (uuid 056111ce-52f7-4702-8b0e-7f2ecbf9d19f))
-    (pin "A9" (uuid 21583092-88b9-48f3-8299-c39af4c6a82f))
-    (pin "A10" (uuid c7f09d3a-59f1-4765-a983-bd417f0568d1))
-    (pin "A11" (uuid 14b28a6c-bddd-4d35-9a7e-7beab4349a21))
-    (pin "A12" (uuid ad230ef3-9bf9-4e9f-b211-565befee3a73))
-    (pin "B1" (uuid b362aaae-8815-4646-b461-857734a3f6fd))
-    (pin "B2" (uuid c6511e52-5724-4a5c-924a-41ecdfa7743b))
-    (pin "B3" (uuid ee1719b7-e6b2-4c7e-b7f2-bc1f0d68f212))
-    (pin "B4" (uuid 928c0709-797d-401d-9192-fb291749fd0a))
-    (pin "B5" (uuid b02b1664-35fb-4d0c-9e37-3cde9aa6939f))
-    (pin "B6" (uuid 82f825d6-64c6-4c40-af35-49a6db55ad2c))
-    (pin "B7" (uuid aaf4b671-9f60-4e85-a59b-96041e48c011))
-    (pin "B8" (uuid d480b2c2-5fb4-47d7-a445-19a1417dc235))
-    (pin "B9" (uuid 7b2067a8-770f-42bd-a7e3-bbebbeac35a9))
-    (pin "B10" (uuid 0fe119df-4685-4c3b-8938-093d83d7553e))
-    (pin "B11" (uuid 9ddf7da0-3d2d-4ed3-bf7e-137ef0300e9c))
-    (pin "B12" (uuid 376d83bd-0bdd-4557-86a4-d65eda46da55))
-    (pin "SH" (uuid a55bf8dd-8f38-423c-94df-bbc7aeb14a2f))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "J50") (unit 1))))
-  )
-  (wire (pts (xy 69.85 170.18) (xy 69.85 175.26)) (stroke (width 0) (type default)) (uuid 91cf90c1-c1f4-4000-9529-ffdf91e79050))
-  (symbol (lib_id "power:GND") (at 69.85 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid cb573e78-b7e4-4901-92de-1b6174e0f2bf)
-    (property "Reference" "#PWRC482622" (at 72.39 172.72 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 72.39 177.8 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 69.85 175.26 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid f0a1dde4-9c7f-4f71-bd3b-f4ecc6a3d383))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRC482622") (unit 1))))
-  )
-  (wire (pts (xy 85.09 104.14) (xy 90.17 104.14)) (stroke (width 0) (type default)) (uuid c79bda11-3dc2-4389-ab42-4a88a977ba3e))
-  (global_label "VBUS" (shape bidirectional) (at 90.17 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 102a38ac-f580-4582-8416-f672a2f3f6c8))
-  (wire (pts (xy 85.09 109.22) (xy 90.17 109.22)) (stroke (width 0) (type default)) (uuid 5f3286a9-f411-4962-a56e-0b4563f038b6))
-  (global_label "RVUSB_CC1" (shape bidirectional) (at 90.17 109.22 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 866eeeeb-2cf8-41f6-b0d4-fa8fc4e66bc9))
-  (wire (pts (xy 85.09 121.92) (xy 90.17 121.92)) (stroke (width 0) (type default)) (uuid 66eaadcf-1ccd-42ed-9638-36f71922d6c6))
-  (global_label "RV_USB_DP" (shape bidirectional) (at 90.17 121.92 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 64197089-57b6-4435-afae-944ea012a395))
-  (wire (pts (xy 85.09 116.84) (xy 90.17 116.84)) (stroke (width 0) (type default)) (uuid 9f921613-7d61-4743-926c-9fd894a2ed2d))
-  (global_label "RV_USB_DM" (shape bidirectional) (at 90.17 116.84 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 6b9f8729-cc16-4bbd-b68c-1e6baa0193df))
-  (wire (pts (xy 85.09 104.14) (xy 90.17 104.14)) (stroke (width 0) (type default)) (uuid e94f6828-621e-4ad4-9621-a5ff0f89e28a))
-  (global_label "VBUS" (shape bidirectional) (at 90.17 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 49b06af9-26b4-4cfb-9b34-7cb660cc8e6f))
-  (wire (pts (xy 69.85 170.18) (xy 69.85 175.26)) (stroke (width 0) (type default)) (uuid 7689249f-e73e-440d-b5c0-d1031b62d295))
-  (symbol (lib_id "power:GND") (at 69.85 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 34f90d8b-4015-4faa-9972-90347688e4fa)
-    (property "Reference" "#PWR89C10C8" (at 72.39 172.72 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 72.39 177.8 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 69.85 175.26 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 4d870462-a8e0-4f1a-a756-bbb15fdca551))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR89C10C8") (unit 1))))
-  )
-  (wire (pts (xy 69.85 170.18) (xy 69.85 175.26)) (stroke (width 0) (type default)) (uuid 0c6db6a6-8855-421b-9b81-a02060887332))
-  (symbol (lib_id "power:GND") (at 69.85 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid d962b38a-6891-48a9-9ff0-5a5b1f0ce133)
-    (property "Reference" "#PWR999C103" (at 72.39 172.72 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 72.39 177.8 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 69.85 175.26 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 019ef335-a055-44c4-87c8-5d89cff9dc8f))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR999C103") (unit 1))))
-  )
-  (wire (pts (xy 85.09 104.14) (xy 90.17 104.14)) (stroke (width 0) (type default)) (uuid 32b88fa2-1b64-4ec9-90fa-01b05d04d0f7))
-  (global_label "VBUS" (shape bidirectional) (at 90.17 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 3d17abe8-7144-4a77-8acc-3376616b22f0))
-  (wire (pts (xy 85.09 111.76) (xy 90.17 111.76)) (stroke (width 0) (type default)) (uuid 57aea8d0-30a1-41a1-9429-f185f6b937eb))
-  (global_label "RVUSB_CC2" (shape bidirectional) (at 90.17 111.76 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 78b6a561-1c6b-4a02-82b3-0e71d6dcdd37))
-  (wire (pts (xy 85.09 124.46) (xy 90.17 124.46)) (stroke (width 0) (type default)) (uuid 5958cb62-0bf2-4758-b259-43cfac034149))
-  (global_label "RV_USB_DP" (shape bidirectional) (at 90.17 124.46 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 0859cdc4-e359-4b56-aefe-251fb0101312))
-  (wire (pts (xy 85.09 119.38) (xy 90.17 119.38)) (stroke (width 0) (type default)) (uuid d5e33b5a-76f0-48f1-93ef-f12b6e2fa14b))
-  (global_label "RV_USB_DM" (shape bidirectional) (at 90.17 119.38 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid ee55ff13-626b-4108-a9b1-c09986c70aca))
-  (wire (pts (xy 85.09 104.14) (xy 90.17 104.14)) (stroke (width 0) (type default)) (uuid ca2e7ae6-1b5e-4262-890d-3e8f57cab0aa))
-  (global_label "VBUS" (shape bidirectional) (at 90.17 104.14 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 8e2496da-91fc-4982-9b44-0ad29f9cc76f))
-  (wire (pts (xy 69.85 170.18) (xy 69.85 175.26)) (stroke (width 0) (type default)) (uuid ad11fa31-aef6-4cb8-a2e8-042d5a7c05c0))
-  (symbol (lib_id "power:GND") (at 69.85 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 9787be5a-732f-45a2-a18a-968ae0e89765)
-    (property "Reference" "#PWR9A09CDB" (at 72.39 172.72 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 72.39 177.8 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 69.85 175.26 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 2adf7c37-de65-407c-b97f-4328c416a61e))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR9A09CDB") (unit 1))))
-  )
-  (wire (pts (xy 62.23 170.18) (xy 62.23 175.26)) (stroke (width 0) (type default)) (uuid 89032bd6-0ff5-427e-bbfb-28ecdb68c38a))
-  (symbol (lib_id "power:GND") (at 62.23 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 9bfd6040-9757-4f01-8571-5fadd8c77c41)
-    (property "Reference" "#PWRC1CA4D8" (at 64.77 172.72 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 64.77 177.8 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 62.23 175.26 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid d4bd45e3-ca32-4a2d-b4c2-e6a4d4cd32e7))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRC1CA4D8") (unit 1))))
-  )
-  (symbol (lib_id "Device:R") (at 35.56 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 294caf5b-c91d-4fae-b28e-b0d98abd9b1b)
-    (property "Reference" "R95" (at 38.1 162.56 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "5k1" (at 38.1 167.64 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 35.56 165.1 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 76dfdff5-d4de-4dfd-8f48-74cc2b44ca98))
-    (pin "2" (uuid 25ac8efb-2916-4173-ab8e-b05e0d841141))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "R95") (unit 1))))
-  )
-  (wire (pts (xy 35.56 161.29) (xy 35.56 156.21)) (stroke (width 0) (type default)) (uuid 46fe3949-1c51-4efb-9e43-2bdb8f2e009e))
-  (global_label "RVUSB_CC1" (shape bidirectional) (at 35.56 156.21 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 4b96f0c7-c1ee-49e5-be49-b524434f4ec0))
-  (wire (pts (xy 35.56 168.91) (xy 35.56 173.99)) (stroke (width 0) (type default)) (uuid 07598ad7-8554-4e52-930e-550254029752))
-  (symbol (lib_id "power:GND") (at 35.56 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid b931863a-c2ad-4bc9-a294-a594514ad000)
-    (property "Reference" "#PWR85BECCA" (at 38.1 171.45 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 38.1 176.53 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 35.56 173.99 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 38771414-f9eb-4b9b-beea-2d9509084afa))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR85BECCA") (unit 1))))
-  )
-  (symbol (lib_id "Device:R") (at 54.61 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 636adba3-f9f9-46e5-af1e-32cabf009824)
-    (property "Reference" "R96" (at 57.15 162.56 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "5k1" (at 57.15 167.64 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 54.61 165.1 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 4a27acff-a08e-4a8a-8f51-824305ea9be1))
-    (pin "2" (uuid 82435345-e447-48f3-88f6-82f5d5c53efa))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "R96") (unit 1))))
-  )
-  (wire (pts (xy 54.61 161.29) (xy 54.61 156.21)) (stroke (width 0) (type default)) (uuid 07f90435-8cfb-4b8f-aa10-6fd300fb8764))
-  (global_label "RVUSB_CC2" (shape bidirectional) (at 54.61 156.21 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 62487f14-4e99-4e6c-aae7-3259c6f58c89))
-  (wire (pts (xy 54.61 168.91) (xy 54.61 173.99)) (stroke (width 0) (type default)) (uuid 2423846a-64f5-4c21-948b-337fe2723140))
-  (symbol (lib_id "power:GND") (at 54.61 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid b78611aa-9495-4e27-a31b-f3707e7ddcba)
-    (property "Reference" "#PWR0D23215" (at 57.15 171.45 0) (effects (font (size 1.27 1.27)) hide))
-    (property "Value" "GND" (at 57.15 176.53 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 54.61 173.99 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 8f1683ed-2703-417a-8e4f-adbc3f3ce11a))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR0D23215") (unit 1))))
+    (pin "1" (uuid 94a80894-5d66-40df-9d00-6e9cd463f284))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR4B859F1") (unit 1))))
   )
   (symbol (lib_id "Connector:Micro_SD_Card") (at 320.04 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 806471ef-bc28-4e7b-87cf-cdf87ea12369)
+    (in_bom yes) (on_board yes) (dnp no) (uuid e4102ccf-03dc-4b95-baa7-3dc639be241f)
     (property "Reference" "J51" (at 322.58 127 0) (effects (font (size 1.27 1.27))))
     (property "Value" "microSD" (at 322.58 132.08 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" (at 320.04 129.54 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 8c9bc5d5-4d61-4e32-b61b-06a260877829))
-    (pin "2" (uuid af0dfa46-955c-45c6-a0de-48108d1e39e0))
-    (pin "3" (uuid 48a8aed1-fef5-469b-8bb1-9740890ae189))
-    (pin "4" (uuid c232b59b-f337-4b5e-9e8d-fee25ca9117d))
-    (pin "5" (uuid a5d19257-ae85-4a74-8163-5e975da90fc7))
-    (pin "6" (uuid da19a0c1-e344-4bb3-9abf-0504376d18c6))
-    (pin "7" (uuid cf95a55e-347c-4862-9e3d-8a8ddea29f96))
-    (pin "8" (uuid e0c688d5-b8c2-49ea-aa60-22a828280af6))
-    (pin "SH" (uuid 074c6ea2-c570-4762-9f8a-b43aa3fcaa91))
+    (pin "1" (uuid e8bbe0c0-963b-47b5-9309-e5dd0b03c4ee))
+    (pin "2" (uuid b9ad0c27-f771-463f-869a-918a7e22223f))
+    (pin "3" (uuid f80d419f-8293-4f87-82bb-8d1dd0f25037))
+    (pin "4" (uuid 817e3ba2-98ae-4b25-b9bd-ff383961ecfc))
+    (pin "5" (uuid cc56786f-c9ab-47b2-a141-d1278456d5c0))
+    (pin "6" (uuid f178a500-fb96-456c-a712-7a4e10f10e0b))
+    (pin "7" (uuid 7ee50643-af65-43ff-8da8-c4d3c3f3dd47))
+    (pin "8" (uuid 8ef4ec63-bcaf-4a26-a7df-e92617147932))
+    (pin "SH" (uuid e55fc674-f09c-4a00-95e3-22b3c3662e5b))
     (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "J51") (unit 1))))
   )
-  (wire (pts (xy 297.18 121.92) (xy 292.1 121.92)) (stroke (width 0) (type default)) (uuid 9ab60dc7-ae13-484f-8ece-70c5a615b75d))
+  (wire (pts (xy 297.18 121.92) (xy 292.1 121.92)) (stroke (width 0) (type default)) (uuid 034cc0ee-3b4a-4516-a14e-7f958b2fab1f))
   (global_label "RVSD_D2" (shape bidirectional) (at 292.1 121.92 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 35fc630b-83f1-4b4a-a4ba-5c81ff264bd0))
-  (wire (pts (xy 297.18 124.46) (xy 292.1 124.46)) (stroke (width 0) (type default)) (uuid c2293702-d0ae-47e0-919b-9cf57b9d75a6))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid b078de7e-85cb-4811-8384-3a78f53f58ac))
+  (wire (pts (xy 297.18 124.46) (xy 292.1 124.46)) (stroke (width 0) (type default)) (uuid 7fa84767-f895-4a5e-ace5-587622cc58ff))
   (global_label "RVSD_D3" (shape bidirectional) (at 292.1 124.46 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid a00ed44c-01b4-4302-866a-7d529a191fb5))
-  (wire (pts (xy 297.18 127) (xy 292.1 127)) (stroke (width 0) (type default)) (uuid fa50346b-716c-4cca-9c33-73e64e64efd6))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid ee8ce651-64ad-4fbe-8ba9-88291903777e))
+  (wire (pts (xy 297.18 127) (xy 292.1 127)) (stroke (width 0) (type default)) (uuid f92febb6-5e3c-4448-8ee9-77c25f2da6d4))
   (global_label "RVSD_CMD" (shape bidirectional) (at 292.1 127 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 23530442-72d1-430a-96f0-ca334d1ba627))
-  (wire (pts (xy 297.18 129.54) (xy 292.1 129.54)) (stroke (width 0) (type default)) (uuid a044d7d9-b3cf-4d62-a60b-17d92e94ac47))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 82b14d33-2747-4fcf-97af-9c49864b59eb))
+  (wire (pts (xy 297.18 129.54) (xy 292.1 129.54)) (stroke (width 0) (type default)) (uuid bd3d6ffe-9d60-4fce-a0f9-d3d29ee636b4))
   (global_label "RV_3V3" (shape bidirectional) (at 292.1 129.54 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 1ebdba17-395f-4ca0-b5e8-206925f70cc7))
-  (wire (pts (xy 297.18 132.08) (xy 292.1 132.08)) (stroke (width 0) (type default)) (uuid c8d5c384-290d-439d-9338-176513c412ab))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 5e3e6ef7-b902-45d1-89ea-cf2ed23d5ea2))
+  (wire (pts (xy 297.18 132.08) (xy 292.1 132.08)) (stroke (width 0) (type default)) (uuid cecae366-4816-42c5-95d1-8b08501b1e1b))
   (global_label "RVSD_CLK" (shape bidirectional) (at 292.1 132.08 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid f3febd3c-28d7-4f97-bdbd-fdd10a61324b))
-  (wire (pts (xy 297.18 134.62) (xy 292.1 134.62)) (stroke (width 0) (type default)) (uuid c0137e48-f0eb-4469-b2b8-b2ea252fee5a))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 752b9714-6ac5-4b1d-aaff-997c1aa50658))
+  (wire (pts (xy 297.18 134.62) (xy 292.1 134.62)) (stroke (width 0) (type default)) (uuid a2b40366-abce-4ce2-8bd6-d185c60917bb))
   (symbol (lib_id "power:GND") (at 292.1 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 224568c2-7784-4175-b643-b6023789c1bc)
-    (property "Reference" "#PWRD5B19B1" (at 294.64 132.08 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid b731a551-c84c-445b-97d4-b56771a7f013)
+    (property "Reference" "#PWR1E43286" (at 294.64 132.08 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "GND" (at 294.64 137.16 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 292.1 134.62 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 9fa6a019-dc4d-405c-aef1-07d375a114a2))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRD5B19B1") (unit 1))))
+    (pin "1" (uuid e6f45a54-34e2-4b1e-94d2-fc32c0ed1a7f))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR1E43286") (unit 1))))
   )
-  (wire (pts (xy 297.18 137.16) (xy 292.1 137.16)) (stroke (width 0) (type default)) (uuid ad805b44-a7de-4979-be57-8e394b24e1ac))
+  (wire (pts (xy 297.18 137.16) (xy 292.1 137.16)) (stroke (width 0) (type default)) (uuid 8e615595-55f0-44f7-a067-e9dbb6237606))
   (global_label "RVSD_D0" (shape bidirectional) (at 292.1 137.16 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 92ea7c3f-2003-421f-b96b-c58e391ac0b0))
-  (wire (pts (xy 297.18 139.7) (xy 292.1 139.7)) (stroke (width 0) (type default)) (uuid 58deebd7-45cf-4233-89de-1e0b39b383d8))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 19ccdae7-bad1-460f-8456-5a0f3db6f2b9))
+  (wire (pts (xy 297.18 139.7) (xy 292.1 139.7)) (stroke (width 0) (type default)) (uuid a29a1465-ade8-45d7-8c37-e62f720327d7))
   (global_label "RVSD_D1" (shape bidirectional) (at 292.1 139.7 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right)) (uuid 273924b2-efe8-4e2f-834a-545b4b7bf486))
-  (wire (pts (xy 340.36 144.78) (xy 345.44 144.78)) (stroke (width 0) (type default)) (uuid 76852866-0c22-4259-b3e4-7218c3e973b8))
+    (effects (font (size 1.27 1.27)) (justify right)) (uuid 89c04514-e4af-44fc-a341-7b2569e651dc))
+  (wire (pts (xy 340.36 144.78) (xy 345.44 144.78)) (stroke (width 0) (type default)) (uuid fd352756-a2f8-4d15-810a-0c17d3a9a4bf))
   (symbol (lib_id "power:GND") (at 345.44 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid af04c329-0229-40c0-b794-a5a7bc95eb48)
-    (property "Reference" "#PWRB3CAE2F" (at 347.98 142.24 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid fb9d871c-fdb7-4593-a3f4-37ddd55c8df3)
+    (property "Reference" "#PWR950D8C0" (at 347.98 142.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "GND" (at 347.98 147.32 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 345.44 144.78 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 9bcb1f0f-70c4-4861-b584-2c93430f573a))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRB3CAE2F") (unit 1))))
+    (pin "1" (uuid fc232e01-9fec-4074-adfc-0a84ad05b77d))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR950D8C0") (unit 1))))
   )
   (symbol (lib_id "Device:C") (at 289.56 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 67efb0ba-6e48-4777-928b-00bbd2b2bbe7)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 8bfbaa0f-beb1-47be-8519-5f8cb6a2c28a)
     (property "Reference" "C94" (at 292.1 107.95 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 292.1 113.03 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 289.56 110.49 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 2b75d531-4a18-4074-bb79-73985e393e02))
-    (pin "2" (uuid ae35bc27-cf01-457c-8064-e3b2cbed9245))
+    (pin "1" (uuid 3c561bc9-6b94-4ae1-8cac-3656d3c66664))
+    (pin "2" (uuid ed74e0ef-7d0e-423e-91d4-ba3aebde525f))
     (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "C94") (unit 1))))
   )
-  (wire (pts (xy 289.56 106.68) (xy 289.56 101.6)) (stroke (width 0) (type default)) (uuid ec5ee81f-ff25-47b0-a6da-2b9030446e7e))
+  (wire (pts (xy 289.56 106.68) (xy 289.56 101.6)) (stroke (width 0) (type default)) (uuid 95fbf284-6ddb-4718-86e6-b59e4322bf3e))
   (symbol (lib_id "power:+5V") (at 289.56 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 6dc640ca-0658-44b7-8524-7519fa1fb78d)
-    (property "Reference" "#PWR3AB7014" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid 0498d5d8-ad44-4927-9f53-c2d0bec47d66)
+    (property "Reference" "#PWR64C1BA4" (at 292.1 99.06 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "+5V" (at 292.1 104.14 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 289.56 101.6 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid ac63bfda-4956-40a4-a0bd-bab655b95164))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR3AB7014") (unit 1))))
+    (pin "1" (uuid b105e1b6-b4a2-403f-85fe-7838f64e96b9))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR64C1BA4") (unit 1))))
   )
-  (wire (pts (xy 289.56 114.3) (xy 289.56 119.38)) (stroke (width 0) (type default)) (uuid 1638d6d5-4da8-4280-90ee-d9c88ab21f1b))
+  (wire (pts (xy 289.56 114.3) (xy 289.56 119.38)) (stroke (width 0) (type default)) (uuid d302b23f-6cc1-424b-89d0-af2a7c42ce93))
   (symbol (lib_id "power:GND") (at 289.56 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 8cd163ed-5318-41c7-b356-aac3969c0c41)
-    (property "Reference" "#PWR3F56FFB" (at 292.1 116.84 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid 6e3dbf7b-bb73-4203-92d0-3854fd15bf96)
+    (property "Reference" "#PWRC934AA2" (at 292.1 116.84 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "GND" (at 292.1 121.92 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 289.56 119.38 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 76737db1-b0b6-4a0e-8bec-575ffd1d26af))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR3F56FFB") (unit 1))))
+    (pin "1" (uuid 8416c04f-2da4-4413-b4f9-cca1934c4e0c))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRC934AA2") (unit 1))))
   )
   (symbol (lib_id "Device:C") (at 110.49 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid e0d523c6-7e37-460a-8581-9e89653cd09f)
+    (in_bom yes) (on_board yes) (dnp no) (uuid ed93f98c-c5e1-4f9b-8f86-a338339fa26f)
     (property "Reference" "C95" (at 113.03 102.87 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 113.03 107.95 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 110.49 105.41 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 20510428-c51b-4498-9a5d-be5d098a471d))
-    (pin "2" (uuid 78c0b37b-e903-4552-bee7-984a9a04518f))
+    (pin "1" (uuid 8aff7b6a-45c0-43a9-9f27-33b23895019f))
+    (pin "2" (uuid 200e81fd-2016-45a6-a004-cb1e80120ff3))
     (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "C95") (unit 1))))
   )
-  (wire (pts (xy 110.49 101.6) (xy 110.49 96.52)) (stroke (width 0) (type default)) (uuid d570ee1b-b836-4967-bd9b-059638fd0845))
+  (wire (pts (xy 110.49 101.6) (xy 110.49 96.52)) (stroke (width 0) (type default)) (uuid 00625618-4cb5-493b-a147-c22efe917098))
   (symbol (lib_id "power:+5V") (at 110.49 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 4acc9ad6-6cd4-4575-956f-96f20c780bd4)
-    (property "Reference" "#PWR10914F2" (at 113.03 93.98 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid a89acdb1-415e-4405-9080-da24e5d13c62)
+    (property "Reference" "#PWR02BB81D" (at 113.03 93.98 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "+5V" (at 113.03 99.06 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 110.49 96.52 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid c8c757bc-5491-440e-9b0b-34d2c12ae292))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR10914F2") (unit 1))))
+    (pin "1" (uuid a87edb46-c3f7-4150-9d94-92bd57963c8f))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWR02BB81D") (unit 1))))
   )
-  (wire (pts (xy 110.49 109.22) (xy 110.49 114.3)) (stroke (width 0) (type default)) (uuid a82cf687-df7e-4a01-af29-8850c6aaa68b))
+  (wire (pts (xy 110.49 109.22) (xy 110.49 114.3)) (stroke (width 0) (type default)) (uuid e4897283-0544-4ff4-9724-8e983b988ca4))
   (symbol (lib_id "power:GND") (at 110.49 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 967fbdb7-c30c-4690-a3a2-6f33fb300c54)
-    (property "Reference" "#PWRE43C683" (at 113.03 111.76 0) (effects (font (size 1.27 1.27)) hide))
+    (in_bom yes) (on_board yes) (dnp no) (uuid 2a91f4ea-431c-483d-bc56-b3c25a7d8836)
+    (property "Reference" "#PWRE00773F" (at 113.03 111.76 0) (effects (font (size 1.27 1.27)) hide))
     (property "Value" "GND" (at 113.03 116.84 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 110.49 114.3 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid aa684b8a-de4c-4ea7-9029-6223d513a2b2))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRE43C683") (unit 1))))
+    (pin "1" (uuid bbcdadb1-db77-4e7b-a4fb-52531eeff3db))
+    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#PWRE00773F") (unit 1))))
   )
-  (symbol (lib_id "power:PWR_FLAG") (at 35.56 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 8c336fbf-95d3-4719-894a-a44b8a3af0ce)
-    (property "Reference" "#FLG_VBUS" (at 38.1 107.95 0) (effects (font (size 1.27 1.27))))
-    (property "Value" "VBUS" (at 38.1 113.03 0) (effects (font (size 1.27 1.27))))
-    (property "Footprint" "" (at 35.56 110.49 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid 954922ad-6273-418d-be9f-1bd28fa1fa8a))
-    (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#FLG_VBUS") (unit 1))))
-  )
-  (wire (pts (xy 35.56 110.49) (xy 35.56 115.57)) (stroke (width 0) (type default)) (uuid bffebfd9-6a00-44c5-9f01-8bd6b9758724))
-  (global_label "VBUS" (shape bidirectional) (at 35.56 115.57 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid 4c812504-4226-4e49-91b0-a69c2b45faff))
   (symbol (lib_id "power:PWR_FLAG") (at 54.61 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (uuid 2081bd14-f1e9-4912-a1bb-5a982d37976d)
+    (in_bom yes) (on_board yes) (dnp no) (uuid 6bae12c3-4fd5-41bc-8295-3dff65589367)
     (property "Reference" "#FLG_RV_3V3" (at 57.15 107.95 0) (effects (font (size 1.27 1.27))))
     (property "Value" "RV_3V3" (at 57.15 113.03 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "" (at 54.61 110.49 0) (effects (font (size 1.27 1.27)) hide))
-    (pin "1" (uuid f20dd943-307a-4d5e-a28e-4ebd3c59ac9f))
+    (pin "1" (uuid a9f34c9f-769d-4029-8a7e-88e6a36f40dc))
     (instances (project "SnowOwl-Shield" (path "/a336091c-7cef-45b2-8e8f-0835e68f0acf" (reference "#FLG_RV_3V3") (unit 1))))
   )
-  (wire (pts (xy 54.61 110.49) (xy 54.61 115.57)) (stroke (width 0) (type default)) (uuid 4cfe3d25-9ff4-4958-ade7-0d2b2bc8b1ab))
+  (wire (pts (xy 54.61 110.49) (xy 54.61 115.57)) (stroke (width 0) (type default)) (uuid ba3dfa75-c1ab-4fa7-b40a-0678a18d153e))
   (global_label "RV_3V3" (shape bidirectional) (at 54.61 115.57 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left)) (uuid f028c5bd-66f4-4436-9177-cc4bb989b747))
-  (text "RV1106 SoM: powered from the system +5V rail (battery boost). J50 USB-C brings in VBUS (charge input) + its own USB data + microSD. UART to the S3 over J1 (RV_TX/RX/CTRL). VERIFY the Core1106 castellated pinout vs the Luckfox datasheet (symbol pin numbers are placeholders)." (at 45 205 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid 691f92b4-6331-451a-89e4-aaf7f7316d3c))
+    (effects (font (size 1.27 1.27)) (justify left)) (uuid 7e56fe59-e5f9-4abd-85f4-30ed6d0ef3c9))
+  (text "RV1106 SoM: powered from the system +5V rail (battery boost). microSD for storage; UART to the S3 over J1 (RV_TX/RX/CTRL). No own USB-C (single-USB-C device). VERIFY the Core1106 castellated pinout vs the Luckfox datasheet (symbol pin numbers are placeholders)." (at 45 205 0) (effects (font (size 1.0 1.0)) (justify left)) (uuid afde395b-e277-49b3-bc54-5c1fe805abbd))
   (sheet_instances (path "/" (page "1")))
 )
