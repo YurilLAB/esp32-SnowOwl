@@ -7842,7 +7842,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "158ee3de-d78e-4800-8f01-de15628394e7")
+		(uuid "f4d052eb-380a-4a22-8821-cc7f01af7500")
 	)
 	(gr_rect
 		(start 30 30)
@@ -7908,7 +7908,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "52fdd1b1-0233-4527-acc5-0f86b44e8e05")
+		(uuid "71c7c9b1-127b-42bc-a484-5e707897ed95")
 	)
 	(gr_rect
 		(start 36 46)
@@ -7990,7 +7990,7 @@
 	(gr_text "2.4\" TFT  (mounts on J31)"
 		(at 63.5 57 0)
 		(layer "F.SilkS")
-		(uuid "fb8799e9-3522-4af8-9dae-305bdc6744b8")
+		(uuid "47d06848-d6f3-42c9-bbc6-5b78be7185ef")
 		(effects
 			(font
 				(size 1.6 1.6)
