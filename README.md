@@ -13,8 +13,6 @@ Three processors — **ESP32-S3 + ESP32-C5 (5 GHz Wi‑Fi) + ARM Linux** — dri
 ![Status](https://img.shields.io/badge/status-in%20development-yellow)
 ![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-<img src="images/shield-front.png" alt="ESP32-SnowOwl shield" width="66%">
-
 </div>
 
 > ⚠️ **Authorized use only.** SnowOwl is built for security research, education, CTFs, and testing on systems you own or are explicitly authorized to assess. You are solely responsible for complying with all applicable laws and regulations.

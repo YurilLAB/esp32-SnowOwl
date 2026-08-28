@@ -1,37 +1,27 @@
 # 🦉 SnowOwl — PCB
 
-All PCB CAD lives here, with the **old** and **new** designs kept strictly separate.
+**Clean slate.** All previous CAD — boards, schematics, footprints, floorplan and renders — has
+been wiped. The hardware direction is changing and the design is being started over from scratch.
 
 ```
 PCB/
-├── v1-original/          ← the ORIGINAL SnowOwl board (archived, read-only)
-│   └── renders/          ← front/back renders (v1 was never published as CAD source)
-└── v2-compact/           ← the NEW from-scratch 2-board redesign (active)
-    ├── PLACEMENT.md      ← floorplan & bus strategy — read this first
-    ├── main-board/       ← ESP32-S3 brain + UI  (SnowOwl-Main.kicad_pro)
-    └── shield/           ← C5 + RV1106 + radios/readers (SnowOwl-Shield.kicad_pro)
+└── RESEARCH.md    ← component & schematic reference carried over from the old attempt
 ```
 
-## v1-original
-The board shown in the top-level README renders. Only PNG renders exist — the original
-KiCad source was never committed to this repo — so `v1-original/` archives those renders
-as the record of what we're replacing. Nothing here is edited.
+## RESEARCH.md
 
-## v2-compact (active)
-A **ground-up remake of both boards** as a stackable 2-board set, deliberately
-floorplanned so it routes cleanly:
+The only thing kept: the electrical research worth not repeating.
 
-- **`main-board/`** — ESP32-S3 controller, TFT/UI, power, microSD, the stack header.
-- **`shield/`** — ESP32-C5 (5 GHz), RV1106 ARM Linux, the Sub-GHz trio (CC1101/CC1200/
-  SX1262), 3× nRF24, PN532 NFC, HTRC110 125 kHz, GPS, IR, iButton, W25Q128 flash.
+- **System architecture** — which processor owns what, and the SPI-spine approach.
+- **Component inventory** — every radio/reader, and which ones are self-contained modules vs.
+  chip-down parts that need a crystal and an RF front-end.
+- **Power** — the single-USB-C / battery topology, plus **datasheet pinout corrections** for the
+  charger, regulators and fuel gauge (the old symbols had invented pinouts).
+- **RF front-end topologies** — matching + filter chains for the chip-down radios, with the
+  caveat that every L/C value still needs VNA tuning.
+- **Schematic gotchas** — including the net-merge bug that silently shorted whole nets twice.
 
-Every radio/reader from v1 is kept; the size win comes from tight zoning and moving big
-modules to the back. See **[`v2-compact/PLACEMENT.md`](v2-compact/PLACEMENT.md)** for the
-zone map, the SPI-spine bus plan, and the J1 pin-grouping that keeps traces local.
+It deliberately assumes **no particular board size, layout or form factor**, so none of it
+constrains the new design.
 
-> **Status:** floorplan skeleton. The projects open in KiCad 7–10 with the compact
-> outline, 4-layer stackup, mounting holes, the shared J1 datum, and labelled placement
-> zones. Symbols/footprints and routing come next. `*-floorplan.svg` in each board folder
-> is a quick visual of its zones.
-
-Made in KiCad. Fabrication outputs (`gerbers-out/`, zips) are git-ignored.
+> Fabrication outputs (`gerbers-out/`, zips) are git-ignored.
