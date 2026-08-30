@@ -9033,8 +9033,8 @@
 		(uuid "027b4101-2b65-41a3-b254-3a460e695202")
 	)
 	(gr_circle
-		(center 186 130.5)
-		(end 187.1 130.5)
+		(center 157 104)
+		(end 158.1 104)
 		(stroke
 			(width 0.12)
 			(type default)
